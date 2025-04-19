@@ -23,7 +23,7 @@ console.log(typeof array)
         console.log(namaArray)
 
 
-let myArray = [1, 2, 3, 4]
+let myArray = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 //Mengakses Element Array
     console.log(myArray[1])
 
@@ -43,3 +43,24 @@ let myArray = [1, 2, 3, 4]
     myArray.splice(1, 1)
     myArray.splice(0, 2)
     console.log(myArray)
+
+    //Untuk menghapus element pertama menggunakan shift dan elemen terakhir menggunakan pop
+    myArray.shift()
+    console.log(myArray)
+    myArray.pop()
+    console.log(myArray)
+    
+//Array Destructuring digunakan untuk melihat isi dari array
+    const introduction = ['Hello', 'JavaScript']
+    const[greeting, name] = introduction
+    console.log(greeting)
+
+//Array Method
+    //Reverse, method yang digunakan untuk membalikkan nilai array dengan menggunakan reverse()
+    const namaArray1 = ['Android', 'Data Science', 'Web']
+    namaArray1.reverse()
+    console.log(namaArray1)
+
+    //Sort, method yang digunakan untuk mengurutkan nilai array.
+    namaArray1.sort()
+    console.log(namaArray1)
