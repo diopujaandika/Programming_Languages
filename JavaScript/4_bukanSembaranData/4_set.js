@@ -1,39 +1,35 @@
+//SET 
 /**
- * SET
- * 
+ * Set adalah struktur data paling spesial karena set tidak memiliki key dan indeks ketika menyimpan data sehingga setiap data yang disimpan dalam set akan bernilai unik tanpa ada duplikasi data.
  */
 
-//Membuat Set
-    //Contoh 1
-    const membuatSet = new Set()
-    console.log(membuatSet)
-    //Contoh 2
-    const membuatSet1 = new Set([1, 2, 3])
-    console.log(membuatSet1)
+//1. Membuat Set => deklarasiVariable namaSet = new Set()
+    const angkaSet = new Set([1, 2, 3])
+    console.log(angkaSet)
 
-//Menyimpan Nilai di Set menggunakan method add
-    const menyimpanSet = new Set ()
-    menyimpanSet.add(1)
-    menyimpanSet.add('Simpan Ini')
-    //Tidak akan di duplikat
-    menyimpanSet.add(1)
-    menyimpanSet.add('Simpan Ini')
-    console.log(menyimpanSet)
+//2. Menyimpan Nilai di Set => namaSet.add()
+    const kuartalSet = new Set ()
+    kuartalSet.add(1)
+    kuartalSet.add('a')
+    kuartalSet.add(null)
+    kuartalSet.add(true)
 
-//Mengakses Nilai di Set
-    const mengaksesSet = new Set()
-    mengaksesSet.add(1)
-    mengaksesSet.add(2)
-    //Mengakses Nilai di Set menggunakan looping
-    for(const number of mengaksesSet){
-        console.log(number)
-    }
-    //Mengakses Nilai di Set menggunakan keyword forEach
-    mengaksesSet.forEach((value) => console.log(value))
+    console.log(kuartalSet)
 
-//Menghapus Nilai di Set menggunakan method delete
-    const menghapusSet = new Set()
-    menghapusSet.add('Hapus 1')
-    menghapusSet.add('Hapus 2')
-    menghapusSet.delete('Hapus 2')
-    console.log(menghapusSet)
+//3. Mengakses Nilai di Set menggunakan looping
+    const aksesSet = new Set ()
+    aksesSet.add(1)
+    aksesSet.add(2)
+    aksesSet.add(4)
+    aksesSet.add(8)
+
+    //a. Menggunakan keyword for
+        for(const number of aksesSet){
+            console.log(number)
+        }
+    //b. Menggunakan keyword foreach
+        aksesSet.forEach((value)=> console.log(value))
+
+//4. Menghapus Nilai di Set => namaSet.delete()
+        kuartalSet.delete(1)
+        console.log(kuartalSet)

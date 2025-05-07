@@ -3,6 +3,10 @@
  * Map adalah salah satu struktur data yang menyimpan KEY-VALUE dengan fungi untuk menutupi kekurangan dari object yaitu key dapat digunakan untuk tipe data apa pun.
  * 
  * SINTAKSIS MAP
+ * 1. Membuat Map => deklarasiVariable namaMap = new Map([])
+ * 2. Menyimpan Nilai di Map => namaMap.set(key, value)
+ * 3. Mengakses Nilai di Map => namaMap.get(key)
+ * 4. Menghapus Nilai di Map => namaMap.delete(key)
  */
 
 //1. Membuat Map (new Map ())=> deklarasiVariable namaMap = new Map([])
