@@ -1,66 +1,75 @@
+//ARRAY
 /**
- * ARRAY
- * Array adalah struktur data yang menyimpan kumpulan data terurut.
- */
-//Contoh
-const array = [1, 2, 3]
-console.log(typeof array)
+ * Struktur data spesial yang dapat menyimpan kumpulan data yang terurut.
+ * 1. Array menyimpan data secara terurut
+ * 2. Array bisa menambahkan nilai diantara data yang sudah ada
+ * 3. Data yang ada di array dapat diakses menggunakan pola indeks
+ * 4. Nilai yang disimpan di dalam array disebut dengan element.
+ * 5. Array bisa menampuang segala jenis data termasuk object.
+ * 
+ * SINTAKSIS ARRAY
+ * 1. Membuat Array
+ *      a. Object Constructor => deklarasiVariable namaArray = new Array()
+ *      b. Array.from => deklarasiVarible namaArray = Array.from()
+ *      c. Array Literal => deklarasiVariable namaArray = [element]
+ */    
 
-//Membuat Array
-    //1. Menggunakan Object Constructor
-        const users = new Array()
-        const numbers = new Array(5)
-        console.log(users, numbers)
-    //2. Menggunakan sintaks Array.from
-        const foo = Array.from('foo')
-        console.log(foo)
-        //Dapat menyalin Array lainnya
-        const usersFrom = new Array('Jhon', 'Jane', 'Jack', 'Jill')
-        const customersFrom = Array.from(usersFrom)
-        console.log(customersFrom)
-    //3. Menggunakan Array Literal (Sangat disarankan)
-        const namaArray = ['Puja Indonesia', 2, false, null, 3.14]
-        console.log(namaArray)
+//1. Membuat Array 
+    //a. Menggunakan object constructor => deklarasiVariable namaArray = new Array()
+        const example = new Array(5)
+        console.log(example)
+    //b. Menggunakan sintaks Array.from => deklarasiVariable namaArray = Array.from()
+        const coding = Array.from('coding')
+        console.log(coding)
+        const namaHero = new Array('Tony Stark', 'Stave Rogers', 'Thor', 'Bruce Banner', 'Natasha Romanoff', 'Clint Barton')
+        const avengers = Array.from(namaHero) //Bisa diguankan untuk menyalin array lainnya.
+        console.log(avengers)
+    //c. Menggunakan Array Literal => deklarasiVariable namaArray = []
+        const CaptainAvangers = ['Stave Rogers', 'Captain Amarica', 1, , true]
+        console.log(CaptainAvangers)
 
+//2. Mengakses Element Array => namaArray[indeks]
+        const anggotaAvenbers = ['Iron Man', 'Captain America', 'Thor', 'Hulk', 'Black Widow', 'Hawkeye']
+        console.log(anggotaAvenbers[0])
 
-let myArray = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-//Mengakses Element Array
-    console.log(myArray[1])
+//3. Manipulasi Nilai Array = namaArray[indeks] = Nilai
+    //a. Menggunakan indexing (mengubah nilai) => namaArray[indeks] = nilaiBaru
+        let angka = [1, 2, 3, 4, 5,]
+        angka[2] = 10
+        console.log(angka[2])
+    //b. Menggunakan push (menambahkan nilai) => namaArray.push(nilaiTambah)
+        let huruf = ['a', 'b', 'c', 'd', 'e']
+        huruf.push('f')
+        console.log(huruf)
 
-//Memanipulasi Array
-    //1. Menggunakan indexing => Untuk mengubah
-        myArray[1] = 'Sepuluh'
-        console.log(myArray)
-    //2. Menggunakan .push  => Untuk menambah
-        myArray.push(6)
-        console.log(myArray)
+//4. Menghapus Element dan Data Array 
+        //a. Menghapus data tapi element masih ada => delete namaArray[indeks]
+            delete angka[1] 
+            console.log(angka)
+        //b. Menghapus data dan element => namaArray.splice(indeks, jumlahElement)
+            angka.splice(1, 1)  //Menghapus 1 Element
+            console.log(angka)
+            angka.splice(1, 2) //Menghapus 2 Element
+            console.log(angka)
+        //c. Menghapus dengan Method Shift (Element Pertama) and Pop (Element Terakhir) 
+            //Sift (Menghapus Element Pertama)
+            huruf.shift()
+            console.log(huruf)
+            huruf.pop()
+            console.log(huruf)
 
-//Menghapus Array menggunakan delete
-    delete myArray[0] //Element akan masih ada
-    console.log(myArray)
-    
-    //Untuk menghapus elementnya sekaligus menggunakan .splice(indeks, jumlah element)
-    myArray.splice(1, 1)
-    myArray.splice(0, 2)
-    console.log(myArray)
+//5. Array Destructuring (melihat isi dari Array) 
+        const introduction = ['Hello', 'Arsy']
+        const [greeting, nama] = introduction
+        console.log(greeting, nama)
 
-    //Untuk menghapus element pertama menggunakan shift dan elemen terakhir menggunakan pop
-    myArray.shift()
-    console.log(myArray)
-    myArray.pop()
-    console.log(myArray)
-    
-//Array Destructuring digunakan untuk melihat isi dari array
-    const introduction = ['Hello', 'JavaScript']
-    const[greeting, name] = introduction
-    console.log(greeting)
-
-//Array Method
-    //Reverse, method yang digunakan untuk membalikkan nilai array dengan menggunakan reverse()
-    const namaArray1 = ['Android', 'Data Science', 'Web']
-    namaArray1.reverse()
-    console.log(namaArray1)
-
-    //Sort, method yang digunakan untuk mengurutkan nilai array.
-    namaArray1.sort()
-    console.log(namaArray1)
+//6. Array Method
+    //a. Reverse (membalik nilai array) => namaArray.reverse()
+        let arrayReverse = ['a', 'b', 'c', 'd', 'e']
+        arrayReverse.reverse()
+        console.log(arrayReverse)
+    //b. Sort (mengurutkan nilai array) => namaArray.sort()
+        let teamHero = ['Iron Man', 'Captain America', 'Thor', 'Hulk', 'Black Widow', 'Hawkeye']
+        teamHero.sort()
+        console.log(teamHero)
+    //

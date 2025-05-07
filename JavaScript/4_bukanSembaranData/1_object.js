@@ -1,6 +1,8 @@
 //OBJECT
 /**
  * Sekumpulan pasangan KEY-VALUE yang menyimpan data secara tidak terurut.
+ * 
+ * SINTAKSIS OBJECT:
  * 1. Membuat Object => Object Literal {namaKey: value}
  * 2. Mengakses Properti di Object => 
  *      a. Dot => (namaObject.namaKey), 
