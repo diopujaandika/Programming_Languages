@@ -1,47 +1,41 @@
+//OBJECT
 /**
- * OBJECT
- * Object adalah kumpulan pasangan key-value dan merupakan tide data yang bukan primitif yang dapat mennyimpan data secara tidak terurut.
+ * Sekumpulan pasangan KEY-VALUE yang menyimpan data secara tidak terurut.
+ * 1. Membuat Object => Object Literal {namaKey: value}
+ * 2. Mengakses Properti di Object => 
+ *      a. Dot => (namaObject.namaKey), 
+ *      b. Square Bracket => (namaObject['nama key'])
+ *      c. Object Destructuring => deklarasiVariable{namaKey/namaKey = value}=namaObject
+ * 3. Mengubah Nilai di Properti Object => namaObject.namaKey = valueBaru
+ * 4. Menghapus Properti di Objeect => delete namaObjet.namaKey
  */
 
-//Membuat Object dengan object literals {}
-const user = {}
-const products = {name: 'Sepatu', price: 230000}
-
-console.log(user)
-console.log(products)
-
-const userDicoding = {
-    id: 24,
-    email: 'aras@dicoding.com',
-    name: 'Dicoding',
-    'last name': 'Indonesia',
-    age: 9,
-}
-console.log(userDicoding)
-
-//Mengakses Properti di Object
-    //1. dot
-    console.log(userDicoding.name)
-    //2. square bracket
-    console.log(userDicoding['last name'])
-    //3. object destructuring
-    const {id, email, name, isMale = false, age } = userDicoding
-    console.log(id, email, name, isMale, age)
-
-//Mengubah Nilai di Properti Object = 
-    const account = {
-        balance: 1000,
-        debt: 10
+//1. Membuat Object dengan Object Literals {namaKey: value}
+    const user = {
+        nama: 'Dio Puja Andika',
+        username: 'diopujaandika',
+        email: 'diopujaandika@dicoding.com', 
+        password: 12345,
+        status: true,
+        'larning path': 'JavaScript',
     }
-    account.balance = 2000
-    console.log(account.balance)
+    console.log(user)
 
-//Menghapus Proporti di Object menggunakan delete
-    const hapus = {
-        'name' : 'Dicoding',
-        'last name': 'Indonesia',
-        age: 2,
-    }
-    delete hapus.name       //menggunakan dot .
-    delete hapus['age']     //Menggunakan square bracket ['']
-    console.log(hapus)
+//2. Mengakses Properti di Object
+    //a. Dot => (namaObject.namaKey)
+        console.log(user.username)
+    //b. Square Bracket => (namaObject['nama key'])
+        console.log(user['larning path'])
+    //c. Object Destructuring => deklarasiVariable {namaKey/namaKey=value} = namaObject
+        const {nama, username, email, password, status} = user  //Memecah properti object ke dalam satuan yang lebih kecil (variable)
+        console.log(nama, username, email, password, status)
+        const {isMale = true} = user //karena properti isMale tidak ada, ketika properti diakses tanpa ada value akan mengembalikan nilai undifene untuk itu kita harus memasukan juga valuenya (isMale = true)
+        console.log(isMale)
+
+//3. Mengubah Nilai di Properti Object => namaObject.namaKey = valueBaru
+        user.username = 'andikadiopuja'
+        console.log(user.username)
+
+//4. Menghapus Properti di Object => delete namaObject.namaKey
+        delete user.status
+        console.log(user)
