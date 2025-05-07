@@ -1,38 +1,34 @@
+//MAP
 /**
- * MAP
+ * Map adalah salah satu struktur data yang menyimpan KEY-VALUE dengan fungi untuk menutupi kekurangan dari object yaitu key dapat digunakan untuk tipe data apa pun.
  * 
+ * SINTAKSIS MAP
  */
 
-//Membuat Map menggunakan object map constructor
-    //Contoh 1
-    const map = new Map()
-    //Contoh 2
-    const productMap = new Map([
-        ['shoes', 500],
-        ['cap', 350],
-        ['jeans', 250],
+//1. Membuat Map (new Map ())=> deklarasiVariable namaMap = new Map([])
+    const nameTeam = new Map([
+        ['Tony Stark', 1],
+        ['Stave Rogers', 2],
+        ['Thor', 3],
+        ['Bruce Banner', 4],
+        ['Natasha Romanoff', 5],
+        ['Clint Barton', 6]
     ])
+    console.log(nameTeam)
 
-    console.log(map)
-    console.log(productMap.get)
+//2. Menyimpan Nilai di Map (set) => namaMap.set(namaKey, nilaiValue)
+    //a. String sebagai Key
+        const namaHero = new Map()
+        namaHero.set('Iron Man', 3000)
+        console.log(namaHero)
+    //b. Number sebagai Key
+        const namaVilain = new Map()
+        namaVilain.set(10000, 'Dr. Doom')
+        console.log(namaVilain)
 
-//Menyimpan Nilai di Map menggunakan method set yang menerima dua nilai dimana nilai pertama adalah key dan nilai kedua adalah value
-    const menyimpanMap = new Map()
-    menyimpanMap.set('name', 'aras')
-    console.log(menyimpanMap)
+//3. Mengakses Nilai di Map (get) => namaMap.get(namaKey)
+    console.log(nameTeam.get('Tony Stark'))
 
-    const menyimpanMap2 = new Map()
-    menyimpanMap2.set(1, 'number one')
-    console.log(menyimpanMap2)
-
-//Mengakses Nilai di Map menggunakan get
-    const mengaksesMap = new Map()
-    mengaksesMap.set('name', 'aras')
-    console.log(mengaksesMap.get('name'))
-
-//Mengahapus Nilai di Map menggunakan method delete
-    const menghapusMap = new Map()
-    menghapusMap.set('name', 'aras')
-    menghapusMap.set('last name', 'opraza')
-    menghapusMap.delete('name')
-    console.log(menghapusMap)
+//4. Menghapus Nilai di Map (delete) => namaMap.delete(namaKey)
+    nameTeam.delete('Clint Barton')
+    console.log(nameTeam)

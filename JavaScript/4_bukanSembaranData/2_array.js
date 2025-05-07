@@ -12,6 +12,18 @@
  *      a. Object Constructor => deklarasiVariable namaArray = new Array()
  *      b. Array.from => deklarasiVarible namaArray = Array.from()
  *      c. Array Literal => deklarasiVariable namaArray = [element]
+ * 2. Mengakses Element Array => namaArray[indeks]
+ * 3. Manipulasi Nilai Array
+ *      a. Menggunakan indexing (mengubah nilai) => namaArray[indeks] = nilaiBaru
+ *      b. Menggunakan push (menambahkan nilai) => namaArray.push(nilaiTambah)
+ * 4. Menghapus Element dan Data Array 
+ *      a. Menghapus data tapi element masih ada => delete namaArray[indeks]
+ *      b. Menghapus data dan element => namaArray.splice(indeks, jumlahElement)
+ *      c.  Menghapus dengan Method Shift (Element Pertama) and Pop (Element Terakhir)
+ * 5. Array Destructuring (melihat isi dari Array) 
+ * 6. Array Method
+ *      a. Reverse (membalik nilai array) => namaArray.reverse()
+ *      b. Sort (mengurutkan nilai array) => namaArray.sort()
  */    
 
 //1. Membuat Array 
@@ -32,7 +44,7 @@
         const anggotaAvenbers = ['Iron Man', 'Captain America', 'Thor', 'Hulk', 'Black Widow', 'Hawkeye']
         console.log(anggotaAvenbers[0])
 
-//3. Manipulasi Nilai Array = namaArray[indeks] = Nilai
+//3. Manipulasi Nilai Array
     //a. Menggunakan indexing (mengubah nilai) => namaArray[indeks] = nilaiBaru
         let angka = [1, 2, 3, 4, 5,]
         angka[2] = 10
@@ -55,6 +67,7 @@
             //Sift (Menghapus Element Pertama)
             huruf.shift()
             console.log(huruf)
+            //pop (Menghapus Element Terakhir)
             huruf.pop()
             console.log(huruf)
 
@@ -72,4 +85,3 @@
         let teamHero = ['Iron Man', 'Captain America', 'Thor', 'Hulk', 'Black Widow', 'Hawkeye']
         teamHero.sort()
         console.log(teamHero)
-    //
