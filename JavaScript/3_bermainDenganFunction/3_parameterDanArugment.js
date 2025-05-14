@@ -14,5 +14,3 @@ convertCelsiusToFahrenheit()    //Default Parameter dari Function
 convertCelsiusToFahrenheit(80)  //Argument Langsung
 const argumentValue = 90
 convertCelsiusToFahrenheit(argumentValue)   //Argument Variable
-
-

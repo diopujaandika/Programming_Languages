@@ -21,6 +21,7 @@ console.log(message)
 
 function convertCelsiusToFahrenheit(temperature){
     const result = 9/5 * temperature + 32
+    console.log(`Hasilnya adalah: ${result}`)
     return result
 }
 const temperatureInFahrenheit = convertCelsiusToFahrenheit(90)

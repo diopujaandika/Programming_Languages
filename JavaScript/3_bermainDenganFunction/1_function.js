@@ -10,6 +10,6 @@
  */
 
 //Contoh sederhana Function
-function greetWorld(){
-    console.log('Hello World')
-}
+    function greetWorld(){
+        console.log('Hello World')
+    }
