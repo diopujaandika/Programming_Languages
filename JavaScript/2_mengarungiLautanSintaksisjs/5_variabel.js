@@ -1,31 +1,27 @@
-//Terdapat empat cara untuk mendeklarasikan variabel dalam JavaSciprt 
-/*
-    Automatically
-    var
-    let 
-    const
-*/
+/**
+ * VARIABLE
+ * Variable adalah wadah untuk menampung sebuah nilai
+ * 
+ * 4 Cara membuat varible pada JS
+ *      1. Automatically
+ *      2. var
+ *      3. let 
+ *      4. const
+ */
 
-//Contoh Automatically
-x = 10                  //Tanpa key Variable
-console.log(x)      
-x = '11'                //Tipe data berubah dari number ke string
-console.log(typeof(x))
+//Contoh automatically
+    autoVaribale = 22           
+    console.log(autoVaribale, 'adalah', typeof(autoVaribale))      
 
-//Contoh Var 
-var y = 'Dio'           
-console.log(y) 
-y = 10                  //Tipe data berubah dari string ke number
-console.log(typeof(y))
+//Contoh var 
+    var varVariable = 'Dio'           
+    console.log(varVariable, 'adalah', typeof(varVariable)) 
 
 //Contoh let
-let z = 2
-console.log(z)
-z = true                //Tipe data berubah dari number ke boolean
-console.log(typeof(z))
+    let letVariable = true
+    console.log(letVariable, 'adalah', typeof(letVariable))
 
 //Contoh const
-const xyz = 'Dio Puja Andika'
-console.log(xyz)
-//xyz = 100               //Variable dengan const tidak dapat diubah
-console.log(typeof(xyz))
+    const constVariableName = "Dio Puja Andika"
+    const constVariableAge = 22
+    console.log(`Nama Saya adalah ${constVariableName}, usia Saya saat ini adalah ${constVariableAge} tahun!`)

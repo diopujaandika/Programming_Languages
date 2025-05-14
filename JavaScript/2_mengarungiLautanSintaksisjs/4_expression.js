@@ -1,4 +1,8 @@
-//Expression adalah segala sesuatu yang menhasilkan nilai
+/**
+ * EXPRESSION
+ * Expression adalah segala sesuatu yang menghasilkan nilai
+ * Biasanya ditandai dengan simbol = 
+ */
 
 //Contoh: 
 const name = 'Dio'//Tipe Data 'Dio' adalah Expression 
