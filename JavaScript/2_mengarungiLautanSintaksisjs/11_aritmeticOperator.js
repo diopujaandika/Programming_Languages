@@ -1,13 +1,22 @@
-/*
- * OPERATOR 
- * Operator adalah simbol atau teks yang digunakan untuk melakukan sebuah operasi.
- * OPERAN
- * Operan adalah nilai yang menjadi target dari sebuah operasi
+/**
+ * ARITHMETIC OPERATOR
+ * Arithmetic Operator adalah operator yang digunakan untuk proses aritmatika.
  */
 
-//Aritmetic Operator
 let angka1 = 10
 let angka2 = 2
+
+    //Penjumlahan
+    console.log(angka1+angka2)
+
+    //Pengurangan
+    console.log(angka1-angka2)
+
+    //Perkalian
+    console.log(angka1*angka2)
+
+    //Pembagian
+    console.log(angka1/angka2)
 
     //Modulus/Sisa Bagi [%]
     console.log(angka1 % angka2)

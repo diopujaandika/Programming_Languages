@@ -1,13 +1,8 @@
-/*
- * OPERATOR 
- * Operator adalah simbol atau teks yang digunakan untuk melakukan sebuah operasi.
- * OPERAN
- * Operan adalah nilai yang menjadi target dari sebuah operasi
+/** 
+ * LOGICAL OPERATOR
+ * Logical Operator adalah operator yang digunakan untuk menetapkan logika dari dua nilai operand boolean.
  */
 
-//Contoh
-let a = 5
-let b = 10
     //1. AND[&&] Semua Operan True makan output True.
     console.log(true && true); // true
     console.log(false && true); // false

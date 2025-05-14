@@ -8,5 +8,3 @@
  *      class SubClass extands SuperClass{}
  * 
 */
-
-class 
