@@ -26,3 +26,4 @@ const convertCelsiusToFahrenheitInConciseSyntax = (temperature) => 9/5 * tempera
 
 temperatureInFahrenheit = convertCelsiusToFahrenheitInConciseSyntax(90)
 console.log(temperatureInFahrenheit)
+
