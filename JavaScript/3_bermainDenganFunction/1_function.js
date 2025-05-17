@@ -9,7 +9,7 @@
  * 3. Function Body =>{}
  */
 
-//Contoh sederhana Function
+//Contoh sederhana Function Default
     function greetWorld(){
         console.log('Hello World')
     }
