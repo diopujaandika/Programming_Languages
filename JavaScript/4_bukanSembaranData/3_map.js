@@ -32,6 +32,7 @@
 
 //3. Mengakses Nilai di Map (get) => namaMap.get(namaKey)
     console.log(nameTeam.get('Tony Stark'))
+    console.log(namaVilain.get(10000))
 
 //4. Menghapus Nilai di Map (delete) => namaMap.delete(namaKey)
     nameTeam.delete('Clint Barton')
