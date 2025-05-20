@@ -15,8 +15,14 @@ class SmartPhone {
         this.brand = brand
         this.model = model
     }
+
+    charging(){
+    console.log(`Charging ${this.model}`)
+    }
 }
 
-charging(){
-    console.log(`Charging ${this.model}`)
+class iOS extends SmartPhone{
+    air
+
+    fdgds
 }
