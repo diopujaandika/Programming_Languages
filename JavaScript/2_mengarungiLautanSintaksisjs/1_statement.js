@@ -1,6 +1,5 @@
 /**
  * Statement adalah instruksi yang akan dieksekusi oleh komputer
- * Comment pada pemrograman tidak termasuk ke dalam statement karena code tidak akan dieksekusi oleh komputer
  */
 
 //Contoh:
