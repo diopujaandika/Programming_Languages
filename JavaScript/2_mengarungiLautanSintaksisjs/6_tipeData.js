@@ -9,16 +9,19 @@
 //String
     //Single Quote
     const myString = 'Dicoding' 
+    //typeOf(variable) => Keyword yang digunakan untuk melihat type data
+    console.log(typeof(myString))
     console.log('Ini merupakan contoh string di JavaScript dengan single quote', myString) //Strind dengan single quote
     //Double Quote
     console.log("Ini merupakan contoh string di JavaScript dengan double quote", myString) //Strind dengan duoble quote
     //Backtick (spesial sebab dapat mendeklarasikan variable langsung dengan menggunakan ${Variable} dan apa yang di console.log akan di tampilkan secara persis seperti enter)
     console.log(`Ini merupakan contoh string di 
         JavaScript dengan Backtick ${myString}`) //Strind dengan backtick
-
+    
 //Number
     //Bilangan bulat
     const resultNumber = 50
+    console.log(typeof(resultNumber))
     console.log(resultNumber)
     //Bilangan Pecahan
     const resultFraction = 50.5
@@ -43,6 +46,7 @@
     //Null adalah expression yang dideklarasikan secara eksplisit
     //Contoh
     let messageNull = null
+    console.log(typeof(null))
     console.log(messageNull)
     
     //Undefined adalah expression yang dideklarasikan implisit
