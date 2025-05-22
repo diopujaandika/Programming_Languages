@@ -8,21 +8,3 @@
  *      class SubClass extands SuperClass{}
  * 
 */
-
-class SmartPhone {
-    constructor(color, brand, model){
-        this.color = color
-        this.brand = brand
-        this.model = model
-    }
-
-    charging(){
-    console.log(`Charging ${this.model}`)
-    }
-}
-
-class iOS extends SmartPhone{
-    air
-
-    fdgds
-}
