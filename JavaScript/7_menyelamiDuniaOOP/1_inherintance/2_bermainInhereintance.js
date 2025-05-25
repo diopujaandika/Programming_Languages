@@ -15,6 +15,6 @@ class manusia{
 
 class laki_laki extends manusia{
     berlari(){
-        console.log('Sebagai'))
+        console.log('Sebagai')
     }
 }
