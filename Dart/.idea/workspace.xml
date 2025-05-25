@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40ed0f9e-941e-4486-862a-0fb498cc86d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bin/2_fundamental_syntax/2_expression.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/2_fundamental_syntax/3_comment.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/2_fundamental_syntax/4_output.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/2_fundamental_syntax/5_variable.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/2_fundamental_syntax/6_dataTypes.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/1_introduction/1_main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bin/1_introduction/1_main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/2_fundamental_syntax/1_statement.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bin/2_fundamental_syntax/1_statement.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +45,7 @@
     "Dart Command Line App.2_expression.dart.executor": "Run",
     "Dart Command Line App.3_comment.dart.executor": "Run",
     "Dart Command Line App.5_variable.dart.executor": "Run",
+    "Dart Command Line App.6_dataTypes.dart.executor": "Run",
     "Dart Command Line App.dart.dart.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
@@ -66,14 +62,9 @@
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
-  <component name="RunManager" selected="Dart Command Line App.5_variable.dart">
+  <component name="RunManager" selected="Dart Command Line App.6_dataTypes.dart">
     <configuration name="1_main.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/bin/1_introduction/1_main.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1_statement.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/bin/2_fundamental_syntax/1_statement.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -92,13 +83,18 @@
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="6_dataTypes.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/bin/2_fundamental_syntax/6_dataTypes.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Dart Command Line App.6_dataTypes.dart" />
         <item itemvalue="Dart Command Line App.5_variable.dart" />
         <item itemvalue="Dart Command Line App.3_comment.dart" />
         <item itemvalue="Dart Command Line App.2_expression.dart" />
         <item itemvalue="Dart Command Line App.1_main.dart" />
-        <item itemvalue="Dart Command Line App.1_statement.dart" />
       </list>
     </recent_temporary>
   </component>
@@ -112,5 +108,16 @@
       <updated>1748163062576</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/bin/2_fundamental_syntax/6_dataTypes.dart</url>
+          <line>14</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
