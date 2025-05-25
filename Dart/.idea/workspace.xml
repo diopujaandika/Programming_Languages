@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40ed0f9e-941e-4486-862a-0fb498cc86d2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/Programming_Languages.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/caches/deviceStreaming.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/2_fundamental_syntax/2_expression.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/2_fundamental_syntax/3_comment.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/2_fundamental_syntax/4_output.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/2_fundamental_syntax/5_variable.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/1_introduction/1_main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bin/1_introduction/1_main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/2_fundamental_syntax/1_statement.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bin/2_fundamental_syntax/1_statement.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +21,13 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -28,12 +36,21 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2xa4t3o2UKnzi0L4eFe0aTLFPcR" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Dart Command Line App.1_main.dart.executor": "Run",
+    "Dart Command Line App.1_statement.dart.executor": "Run",
+    "Dart Command Line App.2_expression.dart.executor": "Run",
+    "Dart Command Line App.3_comment.dart.executor": "Run",
+    "Dart Command Line App.5_variable.dart.executor": "Run",
+    "Dart Command Line App.dart.dart.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -49,15 +66,39 @@
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="dart.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/bin/dart.dart" />
+  <component name="RunManager" selected="Dart Command Line App.5_variable.dart">
+    <configuration name="1_main.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/bin/1_introduction/1_main.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1_statement.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/bin/2_fundamental_syntax/1_statement.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2_expression.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/bin/2_fundamental_syntax/2_expression.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="3_comment.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/bin/2_fundamental_syntax/3_comment.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="5_variable.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/bin/2_fundamental_syntax/5_variable.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Dart Command Line App.dart.dart" />
+        <item itemvalue="Dart Command Line App.5_variable.dart" />
+        <item itemvalue="Dart Command Line App.3_comment.dart" />
+        <item itemvalue="Dart Command Line App.2_expression.dart" />
+        <item itemvalue="Dart Command Line App.1_main.dart" />
+        <item itemvalue="Dart Command Line App.1_statement.dart" />
       </list>
     </recent_temporary>
   </component>
@@ -71,16 +112,5 @@
       <updated>1748163062576</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="Dart">
-          <url>file://$PROJECT_DIR$/bin/dart.dart</url>
-          <line>2</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
