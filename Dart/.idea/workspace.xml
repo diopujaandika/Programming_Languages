@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40ed0f9e-941e-4486-862a-0fb498cc86d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bin/2_fundamental_syntax/10_exceptions.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/2_fundamental_syntax/11_conversionApp.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/3_function/1_function1.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/3_function/2_variable_scope.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/4_flow_control/1_conditional/1_if.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/4_flow_control/1_conditional/1_if_else.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/3_exceptions/1_exceptions.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/3_exceptions/2_conversionApp.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/4_function/1_function1.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/4_function/2_variable_scope.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/4_flow_control/1_conditional/1_if.dart" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,12 +70,12 @@
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
-  <component name="RunManager" selected="Dart Command Line App.2_variable_scope.dart">
-    <configuration name="10_exceptions.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/bin/2_fundamental_syntax/10_exceptions.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programming\Programming_Languages\dart\bin\2_fundamental_syntax" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Dart Command Line App.1_if_else.dart">
     <configuration name="11_conversionApp.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/bin/2_fundamental_syntax/11_conversionApp.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
@@ -90,6 +83,11 @@
     </configuration>
     <configuration name="1_function1.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/bin/3_function/1_function1.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1_if_else.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/bin/4_flow_control/1_conditional/1_if_else.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -105,11 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Dart Command Line App.1_if_else.dart" />
         <item itemvalue="Dart Command Line App.2_variable_scope.dart" />
         <item itemvalue="Dart Command Line App.9_null_safety.dart" />
         <item itemvalue="Dart Command Line App.1_function1.dart" />
         <item itemvalue="Dart Command Line App.11_conversionApp.dart" />
-        <item itemvalue="Dart Command Line App.10_exceptions.dart" />
       </list>
     </recent_temporary>
   </component>
