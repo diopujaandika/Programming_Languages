@@ -9,7 +9,7 @@
     console.log("Output String Double Qoutes") //Double Qoutes => "..."
     console.log(`Outout 
         String 
-        Backtick`) //Backstick `...`
+        Backtick`) //Backstick `...` lebih fleksible karena output yang dihasilkan akan sesuai dengan apa yang di tulis. Misal penggunaan line.
 
 //2. Contoh Output Number:
     console.log(10) // Data Type Number

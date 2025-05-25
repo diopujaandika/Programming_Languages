@@ -13,4 +13,4 @@ Math.max(10, 20)    //Expressionnya adalah 20
 
 let a = 3 + 4       //Expressionnya adalah 3 + 4
 const name = 'Dio'  //Tipe Data 'Dio' adalah Expression 
-console.log(name)   //Variable name adalah Expression
+console.log(name)   //Hasil dari variable name adalah Expression 
