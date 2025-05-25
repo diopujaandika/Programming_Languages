@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40ed0f9e-941e-4486-862a-0fb498cc86d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bin/2_fundamental_syntax/6_dataTypes.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/2_fundamental_syntax/7_mengubahTipeData.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/2_fundamental_syntax/8_operator.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +47,8 @@
     "Dart Command Line App.3_comment.dart.executor": "Run",
     "Dart Command Line App.5_variable.dart.executor": "Run",
     "Dart Command Line App.6_dataTypes.dart.executor": "Run",
+    "Dart Command Line App.7_mengubahTipeData.dart.executor": "Run",
+    "Dart Command Line App.8_operator.dart.executor": "Run",
     "Dart Command Line App.dart.dart.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
@@ -62,17 +65,7 @@
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
-  <component name="RunManager" selected="Dart Command Line App.6_dataTypes.dart">
-    <configuration name="1_main.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/bin/1_introduction/1_main.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="2_expression.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/bin/2_fundamental_syntax/2_expression.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Dart Command Line App.8_operator.dart">
     <configuration name="3_comment.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/bin/2_fundamental_syntax/3_comment.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
@@ -88,13 +81,23 @@
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="7_mengubahTipeData.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/bin/2_fundamental_syntax/7_mengubahTipeData.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="8_operator.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/bin/2_fundamental_syntax/8_operator.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Dart Command Line App.8_operator.dart" />
+        <item itemvalue="Dart Command Line App.7_mengubahTipeData.dart" />
         <item itemvalue="Dart Command Line App.6_dataTypes.dart" />
         <item itemvalue="Dart Command Line App.5_variable.dart" />
         <item itemvalue="Dart Command Line App.3_comment.dart" />
-        <item itemvalue="Dart Command Line App.2_expression.dart" />
-        <item itemvalue="Dart Command Line App.1_main.dart" />
       </list>
     </recent_temporary>
   </component>
