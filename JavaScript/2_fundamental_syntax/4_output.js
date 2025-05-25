@@ -7,7 +7,9 @@
 //1. Contoh Output String:
     console.log('Output String Single Qoutes') //Single Qoutes => '...'
     console.log("Output String Double Qoutes") //Double Qoutes => "..."
-    console.log(`Outout String Backtick`) //Backstick `...`
+    console.log(`Outout 
+        String 
+        Backtick`) //Backstick `...`
 
 //2. Contoh Output Number:
     console.log(10) // Data Type Number
