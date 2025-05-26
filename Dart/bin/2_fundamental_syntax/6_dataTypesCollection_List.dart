@@ -1,10 +1,12 @@
 ///COLLECTION
+///LIST digunakan untuk menyimpan segala jenis data!
 
 void main(){
   mylist();
   myListLoop();
   myListForEach();
   addList();
+  mySpreadOperator();
 }
 
 //List
@@ -46,4 +48,17 @@ void addList(){
   print(stringList);
   stringList[4]= 'UEA';
   print(stringList);
+}
+
+//Spread Operator
+void mySpreadOperator(){
+  var favorites = ['Seafood', 'Salad', 'Nugget', 'Soup'];
+  var others = ['Cake', 'Pie', 'Donut'];
+  var allFavorites = [...favorites, ...others]; //...namaList => Menggabungkan beberap list.
+  print(allFavorites);
+
+  //Untuk mengatasi list yang bernilai null:
+  List<dynamic>? list1;
+  List<dynamic>? list2 = [0, ...?list1];
+  print(list2);
 }

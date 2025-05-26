@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40ed0f9e-941e-4486-862a-0fb498cc86d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bin/2_fundamental_syntax/6_dataTypesCollection_2.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/4_flow_control/3_break_continue/1_break_continue.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/2_fundamental_syntax/6_dataTypesCollection_List.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/2_fundamental_syntax/6_dataTypesCollection_Map.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/2_fundamental_syntax/6_dataTypesCollection_Set.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/2_fundamental_syntax/6_dataType_2.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/4_flow_control/2_looping/2_while_do_while.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bin/4_flow_control/2_looping/2_while_do_while.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/2_fundamental_syntax/6_dataTypesCollection_2.dart" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +59,8 @@
     "Dart Command Line App.5_variable.dart.executor": "Run",
     "Dart Command Line App.6_dataTypes.dart.executor": "Run",
     "Dart Command Line App.6_dataTypesCollection_2.dart.executor": "Run",
+    "Dart Command Line App.6_dataTypesCollection_Map.dart.executor": "Run",
+    "Dart Command Line App.6_dataTypesCollection_Set.dart.executor": "Run",
     "Dart Command Line App.7_mengubahTipeData.dart.executor": "Run",
     "Dart Command Line App.8_operator.dart.executor": "Run",
     "Dart Command Line App.9_null_safety.dart.executor": "Run",
@@ -73,29 +75,22 @@
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Programming/Programming_Languages/dart",
+    "last_opened_file_path": "D:/Programming/Programming_Languages/dart/bin/2_fundamental_syntax",
     "settings.editor.selected.configurable": "dart.settings",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programming\Programming_Languages\dart\bin\2_fundamental_syntax" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Programming\Programming_Languages\dart\bin\2_fundamental_syntax" />
     </key>
   </component>
-  <component name="RunManager" selected="Dart Command Line App.6_dataTypesCollection_2.dart">
+  <component name="RunManager" selected="Dart Command Line App.6_dataTypesCollection_Map.dart">
     <configuration name="1_break_continue.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/bin/4_flow_control/3_break_continue/1_break_continue.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1_for_loops.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/bin/4_flow_control/2_looping/1_for_loops.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="2_switch_case.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/bin/4_flow_control/1_conditional/2_switch_case.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -104,18 +99,28 @@
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="6_dataTypesCollection_2.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/bin/2_fundamental_syntax/6_dataTypesCollection_2.dart" />
+    <configuration name="6_dataTypesCollection_List.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/bin/2_fundamental_syntax/6_dataTypesCollection_List.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="6_dataTypesCollection_Map.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/bin/2_fundamental_syntax/6_dataTypesCollection_Map.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="6_dataTypesCollection_Set.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/bin/2_fundamental_syntax/6_dataTypesCollection_Set.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Dart Command Line App.6_dataTypesCollection_2.dart" />
+        <item itemvalue="Dart Command Line App.6_dataTypesCollection_Map.dart" />
+        <item itemvalue="Dart Command Line App.6_dataTypesCollection_Set.dart" />
+        <item itemvalue="Dart Command Line App.6_dataTypesCollection_List.dart" />
         <item itemvalue="Dart Command Line App.1_break_continue.dart" />
         <item itemvalue="Dart Command Line App.2_while_do_while.dart" />
-        <item itemvalue="Dart Command Line App.1_for_loops.dart" />
-        <item itemvalue="Dart Command Line App.2_switch_case.dart" />
       </list>
     </recent_temporary>
   </component>
@@ -147,6 +152,11 @@
           <url>file://$PROJECT_DIR$/bin/4_flow_control/2_looping/2_while_do_while.dart</url>
           <line>2</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/bin/2_fundamental_syntax/6_dataTypesCollection_Set.dart</url>
+          <line>3</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
