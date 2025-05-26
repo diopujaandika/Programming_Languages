@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40ed0f9e-941e-4486-862a-0fb498cc86d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bin/5_oop/5_inheritance_1.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/5_oop/5_inheritance_2.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/5_oop/5_inheritance_3.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/5_oop/7_implicit_interface.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/5_oop/6_abstact_class.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bin/5_oop/6_abstact_class.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
