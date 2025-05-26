@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40ed0f9e-941e-4486-862a-0fb498cc86d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bin/5_oop/1_class.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/5_oop/2_properties_methods_1.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/5_oop/2_properties_methods_2.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/5_oop/2_properties_methods_3.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/5_oop/3_contructor.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/5_oop/4_cascade_notation.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/5_oop/5_inheritance_1.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/5_oop/5_inheritance_2.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/5_oop/5_inheritance_3.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/5_oop/6_abstact_class.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bin/5_oop/6_abstact_class.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +61,7 @@
     "Dart Command Line App.3_contructor.dart.executor": "Run",
     "Dart Command Line App.3_properties_methods_3.dart.executor": "Run",
     "Dart Command Line App.4_cascade_notation.dart.executor": "Run",
+    "Dart Command Line App.5_inheritance_1.dart.executor": "Run",
     "Dart Command Line App.5_variable.dart.executor": "Run",
     "Dart Command Line App.6_dataTypes.dart.executor": "Run",
     "Dart Command Line App.6_dataTypesCollection_2.dart.executor": "Run",
@@ -95,12 +94,7 @@
       <recent name="D:\Programming\Programming_Languages\dart\bin\2_fundamental_syntax" />
     </key>
   </component>
-  <component name="RunManager" selected="Dart Command Line App.4_cascade_notation.dart">
-    <configuration name="1_class.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/bin/5_oop/1_class.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Dart Command Line App.5_inheritance_1.dart">
     <configuration name="2_properties_methods_1.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/bin/5_oop/2_properties_methods_1.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
@@ -121,13 +115,18 @@
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="5_inheritance_1.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/bin/5_oop/5_inheritance_1.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Dart Command Line App.5_inheritance_1.dart" />
         <item itemvalue="Dart Command Line App.4_cascade_notation.dart" />
         <item itemvalue="Dart Command Line App.3_contructor.dart" />
         <item itemvalue="Dart Command Line App.2_properties_methods_3.dart" />
         <item itemvalue="Dart Command Line App.2_properties_methods_1.dart" />
-        <item itemvalue="Dart Command Line App.1_class.dart" />
       </list>
     </recent_temporary>
   </component>
