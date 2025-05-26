@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40ed0f9e-941e-4486-862a-0fb498cc86d2" name="Changes" comment="" />
+    <list default="true" id="40ed0f9e-941e-4486-862a-0fb498cc86d2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/bin/2_fundamental_syntax/6_dataTypesCollection_2.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/4_flow_control/3_break_continue/1_break_continue.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/2_fundamental_syntax/6_dataType_2.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/4_flow_control/2_looping/2_while_do_while.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bin/4_flow_control/2_looping/2_while_do_while.dart" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +43,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Dart Command Line App.1_break_continue.dart.executor": "Run",
     "Dart Command Line App.1_exceptions.dart.executor": "Run",
     "Dart Command Line App.1_for_loops.dart.executor": "Run",
     "Dart Command Line App.1_function1.dart.executor": "Run",
@@ -47,9 +54,11 @@
     "Dart Command Line App.2_expression.dart.executor": "Run",
     "Dart Command Line App.2_switch_case.dart.executor": "Run",
     "Dart Command Line App.2_variable_scope.dart.executor": "Run",
+    "Dart Command Line App.2_while_do_while.dart.executor": "Run",
     "Dart Command Line App.3_comment.dart.executor": "Run",
     "Dart Command Line App.5_variable.dart.executor": "Run",
     "Dart Command Line App.6_dataTypes.dart.executor": "Run",
+    "Dart Command Line App.6_dataTypesCollection_2.dart.executor": "Run",
     "Dart Command Line App.7_mengubahTipeData.dart.executor": "Run",
     "Dart Command Line App.8_operator.dart.executor": "Run",
     "Dart Command Line App.9_null_safety.dart.executor": "Run",
@@ -74,14 +83,14 @@
       <recent name="D:\Programming\Programming_Languages\dart\bin\2_fundamental_syntax" />
     </key>
   </component>
-  <component name="RunManager" selected="Dart Command Line App.1_for_loops.dart">
-    <configuration name="1_for_loops.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/bin/4_flow_control/2_looping/1_for_loops.dart" />
+  <component name="RunManager" selected="Dart Command Line App.6_dataTypesCollection_2.dart">
+    <configuration name="1_break_continue.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/bin/4_flow_control/3_break_continue/1_break_continue.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="1_if_else.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/bin/4_flow_control/1_conditional/1_if_else.dart" />
+    <configuration name="1_for_loops.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/bin/4_flow_control/2_looping/1_for_loops.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -90,23 +99,23 @@
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="2_variable_scope.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/bin/3_function/2_variable_scope.dart" />
+    <configuration name="2_while_do_while.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/bin/4_flow_control/2_looping/2_while_do_while.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="9_null_safety.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/bin/2_fundamental_syntax/9_null_safety.dart" />
+    <configuration name="6_dataTypesCollection_2.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/bin/2_fundamental_syntax/6_dataTypesCollection_2.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Dart Command Line App.6_dataTypesCollection_2.dart" />
+        <item itemvalue="Dart Command Line App.1_break_continue.dart" />
+        <item itemvalue="Dart Command Line App.2_while_do_while.dart" />
         <item itemvalue="Dart Command Line App.1_for_loops.dart" />
         <item itemvalue="Dart Command Line App.2_switch_case.dart" />
-        <item itemvalue="Dart Command Line App.1_if_else.dart" />
-        <item itemvalue="Dart Command Line App.2_variable_scope.dart" />
-        <item itemvalue="Dart Command Line App.9_null_safety.dart" />
       </list>
     </recent_temporary>
   </component>
@@ -133,6 +142,11 @@
           <url>file://$PROJECT_DIR$/bin/4_flow_control/1_conditional/1_if_else.dart</url>
           <line>2</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/bin/4_flow_control/2_looping/2_while_do_while.dart</url>
+          <line>2</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
