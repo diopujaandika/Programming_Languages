@@ -1,5 +1,6 @@
 ///CLASS
 void main(){
+  //Pemanggilan class
   var dicodingCat = Animal('Gray', 2, 3.4);
 
   dicodingCat.eat();
@@ -9,12 +10,15 @@ void main(){
 }
 
 class Animal{
+  //Properties
   String name;
   int age;
   double weight;
 
+  //Constructor
   Animal(this.name, this.age, this.weight);
 
+  //Methods
   void eat(){
     print('$name is eating!');
     weight = weight + 0.2;
