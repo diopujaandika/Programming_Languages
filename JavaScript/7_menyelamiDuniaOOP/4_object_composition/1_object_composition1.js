@@ -1,34 +1,78 @@
 /**
- * POLYMORPHISM
- * Polymorphism 
+ * Object Composition (OC)
+ * Object Composition adalah cara yang digunakan sebagai solusi untuk masalah pewarisan yang kompleks.
  */
 
-class SmartPhones{
-    constructor(color, brand, model){
-        this.color = color
-        this.brand = brand
-        this.model = model
+//Contoh
+class Character{
+    constructor(name, health, position){
+        this.name = name
+        this.health = health
+        this.position = position
     }
-    charging(){
-        console.log('Charging is', this.model)
+
+    canMove(){
+        console.log(`${this.name} moves to another position!`)
     }
 }
 
-class Android extends SmartPhones{
-    //OVerriding Constructor
-    constructor(color, brand, model, device){
-        super(color, brand, model)
-        this.device = device
-    }
-    charging(){
-        super.charging()
-        console.log(`Charging ${this.model} with fast charger`)
-    }
-    splitScreen(){
-        console.log('Android have a Split Screen')
+function canAttack(character){
+    return{
+        attack: () => {
+            console.log(`${character} attacks with a weapon!`)
+        }
     }
 }
 
-const android = new Android('White', 'B', 'Galaxy S21', 'Smart TV')
+function canDefend(character){
+    return{
+        defend: () => {
+            console.log(`${character} defends with a shield!`)
+        }
+    }
+}
 
-android.charging()
+function canCastSpell(character){
+    return{
+        castSpell: () => {
+            console.log(`${character} casts a spell!`)
+        }
+    }
+}
+
+function createMonster(name){
+    const character = new Character(name, 100, 0)
+    return Object.assign(character, canAttack(name))
+}
+
+function createGuardian(name){
+    const character = new Character(name, 100, 0)
+    return Object.assign(character, canDefend(name))
+}
+
+function createWizard(name){
+    const character = new Character(name, 100, 0)
+    return Object.assign(character, canCastSpell(name))
+}
+
+function createWarrior(name){
+    const character = new Character(name, 100, 0)
+    return Object.assign(character, canAttack(character), canDefend(character))
+}
+
+const monster = createMonster('Monster')
+monster.canMove()
+monster.attack()
+
+const guardian = createGuardian('Guardian');
+guardian.canMove();
+guardian.defend();
+ 
+const wizard = createWizard('Wizard');
+wizard.canMove();
+wizard.castSpell();
+ 
+const warrior = createWarrior('Warrior');
+warrior.canMove();
+warrior.attack();
+warrior.defend();

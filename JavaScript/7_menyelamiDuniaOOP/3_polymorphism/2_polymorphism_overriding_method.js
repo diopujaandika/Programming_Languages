@@ -20,6 +20,11 @@ class Android extends SmartPhones{
         super(color, brand, model)
         this.device = device
     }
+    charging(){
+        //Cara memanggil method charging dari SuperClass(SmartPhones)
+        super.charging()
+        console.log(`Charging ${this.model} with fast charger`)
+    }
     splitScreen(){
         console.log('Android have a Split Screen')
     }
