@@ -1,6 +1,6 @@
 /**
  * ARROW FUNCTION
- * Arrow Function 
+ * Arrow Function
  */  
 
 let temperatureInFahrenheit = null
