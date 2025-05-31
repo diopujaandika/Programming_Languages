@@ -9,10 +9,10 @@
  * 
 */
 
-class SmartPhones {
+class SmartPhones{
     constructor(color, brand, model){
         this.color = color
-        this.brand = brand 
+        this.brand = brand
         this.model = model
     }
 
@@ -23,13 +23,13 @@ class SmartPhones {
 
 class iOS extends SmartPhones{
     airDrop(){
-        console.log('iOS have a behavior AidDrop')
+        console.log('iOS have a behavior AirDrop')
     }
 }
 
 class Android extends SmartPhones{
     splitScreen(){
-        console.log('Android have a behavior Split Screen')
+        console.log('Android have a Split Screen')
     }
 }
 
@@ -41,3 +41,6 @@ ios.airDrop()
 
 android.charging()
 android.splitScreen()
+
+console.log(ios instanceof SmartPhones)
+console.log(android instanceof SmartPhones)
