@@ -14,6 +14,6 @@
  * 3. Comment 3
  */
 
-console.log('Hai, Readers!')
-console.log('Hai, JavaScript')
-console.log("Dio Puja Andika")
+console.log('Hai, Readers!');
+console.log('Hai, JavaScript');
+console.log("Dio Puja Andika");
