@@ -7,8 +7,9 @@
 void main(){
   //1. DataType namaVariable = valueVariable
   String namaDepan = "Dio";
+  String namaTengah = "Puja";
   String namaBelakang = "Andika";
-  print(namaDepan + namaBelakang);
+  print(namaDepan + namaTengah + namaBelakang);
 
   //2. Keyword(var, const, final) = valueVariable
   //a. var
