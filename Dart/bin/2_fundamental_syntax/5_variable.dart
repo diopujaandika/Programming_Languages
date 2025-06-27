@@ -1,20 +1,20 @@
 ///VARIABLE
 ///Variable adalah wadah untuk menampung suatu nilai.
 ///Penulisan variable dalam Dart
-///1. DataType
-///2. Keyword
+///1. Statically Typed
+///2. Type Inference
 
 void main(){
-  //1. DataType namaVariable = valueVariable
+  
+  //1. Statically Type => typeData nameVariable = valueVariable
   String namaDepan = "Dio";
   String namaTengah = "Puja";
   String namaBelakang = "Andika";
   print(namaDepan + namaTengah + namaBelakang);
 
-  //2. Keyword(var, const, final) = valueVariable
-  //a. var
-  var variable1 = 1;
-  const variable2 = 2;
-  final variable3 = 3;
-  print(variable1+variable2+variable3);
+  //2. Type Inference (var, const, final) = valueVariable
+  var variable1 = 1;    //Mutable Variable
+  const variable2 = 2;  //Immutable Variable
+  final variable3 = 3;  //Immutable Variable
+  print(variable1+variable2*variable3);
 }

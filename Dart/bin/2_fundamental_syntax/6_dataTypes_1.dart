@@ -3,7 +3,7 @@ import 'dart:io';
 ///DATA TYPES
 ///Data Type atau tipe data adalah jenis data yang digunakan.
 ///Data Type Dart
-///1. String
+///1. String 
 ///2. int
 ///3. double
 ///4. num
@@ -12,7 +12,7 @@ import 'dart:io';
 ///7. Map
 ///8. dynamic
 
-void main(){
+void main(){  
   //1. String
   String variableString1 = 'Ini tipe data String dengan single quote!';
   String variableString2 = "Ini tipe data String dengan double quote!";
