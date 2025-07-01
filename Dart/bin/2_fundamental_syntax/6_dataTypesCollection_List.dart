@@ -54,7 +54,7 @@ void addList(){
 void mySpreadOperator(){
   var favorites = ['Seafood', 'Salad', 'Nugget', 'Soup'];
   var others = ['Cake', 'Pie', 'Donut'];
-  var allFavorites = [...favorites, ...others]; //...namaList => Menggabungkan beberap list.
+  var allFavorites = [...favorites, ...others]; //...namaList => Menggabungkan beberapa list.
   print(allFavorites);
 
   //Untuk mengatasi list yang bernilai null:

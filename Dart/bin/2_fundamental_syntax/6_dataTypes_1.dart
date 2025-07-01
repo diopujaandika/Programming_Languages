@@ -26,9 +26,9 @@ void main(){
 
   //2. int - double - num
   int variableInt = 1;  //Bilangan Bulat
-  double variableDouble = 1.1;  //Bilangan Pecahan
-  num variableNum1 = 10;  //Bilangan Bulat-Pecahan
-  num variableNum2 = 10.1;  //Bilangan Bulat-Pecahan
+  double variableDouble = 1.1;  //Bilangan Desimal
+  num variableNum1 = 10;  //Bilangan Bulat-Desimal
+  num variableNum2 = 10.1;  //Bilangan Bulat-Desimal
   print(variableInt+variableDouble+variableNum1+variableNum2);
   print('${variableInt.runtimeType}+${variableDouble.runtimeType}+${variableNum1.runtimeType}+${variableNum2.runtimeType}');
 

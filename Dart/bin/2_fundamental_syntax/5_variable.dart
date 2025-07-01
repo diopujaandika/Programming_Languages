@@ -13,8 +13,15 @@ void main(){
   print(namaDepan + namaTengah + namaBelakang);
 
   //2. Type Inference (var, const, final) = valueVariable
-  var variable1 = 1;    //Mutable Variable
-  const variable2 = 2;  //Immutable Variable
-  final variable3 = 3;  //Immutable Variable
+  var variable1 = 1;    //Mutable  
+  const variable2 = 2;  //Immutable Variable & Value
+  final variable3 = 3;  //Immutable Variable 
   print(variable1+variable2*variable3);
+
+  //Excample
+  var greetings = 'Hello Dart';
+  print(greetings);
+  var myAge;
+  myAge = 20;
+  print(myAge);
 }
