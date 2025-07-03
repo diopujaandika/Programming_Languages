@@ -1,5 +1,5 @@
 ///STATEMENT
-///Statement adalah instruksi yang akan diesksekusi oleh komputer
+///Statement adalah instruksi yang akan diesksekusi oleh komputer ketika program dijalankan
 void main(){
   String name = "Dio Puja Andika";  //Statement 1
   int age = 22; //Statement 2
