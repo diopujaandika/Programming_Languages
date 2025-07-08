@@ -1,6 +1,9 @@
 ///WHILE AND DO-WHILE
 ///While and Do-While adalah looping yang mengevaluasi ekspression boolean dan tidak memiliki ketergantungan dengan variable index.
 ///While lebih cocok digunakan ketika kita tahu pasti berapa banyak perulangan yang diperlukan.
+///
+///while => kondisi a
+///do => maka b
 
 void main(){
   myWhile(1);

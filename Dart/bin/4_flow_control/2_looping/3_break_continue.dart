@@ -1,7 +1,9 @@
 ///BREAK AND CONTINUE
+///Break and continue adalah keyword yang digunakan dalam dart untuk memberhentikan dan melanjutkan suatu pengulangan.
 
 void main(){
   breakCotinue();
+  example();
 }
 
 void breakCotinue(){
@@ -18,5 +20,14 @@ void breakCotinue(){
       break;
     }
     print('$searchNumber != ${primeNumbers[i]}');
+  }
+}
+
+void example() {
+  for(int i = 1; i<=10; i++){
+    if(i%3 == 0){
+      continue;
+    }
+    print(i);
   }
 }
