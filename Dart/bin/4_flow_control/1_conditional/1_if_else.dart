@@ -1,4 +1,5 @@
-///IF AND ELSE
+///IF & ELSE
+///If 
 
 void main(){
   controlIf();
@@ -32,7 +33,7 @@ void openShop(){
   }
 }
 
-//3. IF-ELSE IF-ELSE
+//3. IF, ELSE-IF, ELSE
 String calculateScore(num score){
   if(score>90){
     return 'A';
