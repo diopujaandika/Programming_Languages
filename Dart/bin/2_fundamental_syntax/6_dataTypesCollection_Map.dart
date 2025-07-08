@@ -1,5 +1,12 @@
 ///COLLECTION
 ///MAP digunakan untuk menyimpan data dengan key-value
+///Sintak membuat map
+///variable nameMap = {
+///   key (data anyDataType) : value (data anyDataType),
+///   key (data anyDataType) : value (data anyDataType),
+///   key (data anyDataType) : value (data anyDataType),
+///   ...
+///};
 
 
 void main(){
