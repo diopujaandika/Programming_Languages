@@ -1,5 +1,5 @@
 import 'dart:io';
-///FUNCTION
+///FUNCTIONS
 
 void main(){
   greet('Dio Puja Andika', 'Dart');
