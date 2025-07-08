@@ -1,4 +1,11 @@
 ///OPERATOR
+///Ooerator adalah operasi yang dilakukan dalam pemrograman 
+///Teradapat bebera jenis operator yang biasanya digunakan;
+///1. Operator Assignment
+///2. Operator Aritmetika
+///3. Operator Increment & Decrement
+///3. Operator Perbandingan
+///4. Operator Logika
 
 void main(){
   //Operator Assignment (=)
