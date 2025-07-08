@@ -1,5 +1,6 @@
 ///COLLECTION
 ///LIST digunakan untuk menyimpan segala jenis data!
+///Sintak => List<dataType> listName = [value1, value2, value3, ...];
 
 void main(){
   mylist();
@@ -9,17 +10,18 @@ void main(){
   mySpreadOperator();
 }
 
-//List
+//Cara membuat List => List<dataType> listName = [value1, value2, value3, ...];
 void mylist (){
-  List<int> numberList = [1,2,3,4,5];
+  List<int> numberList = [1,2,3,4,5]; 
   List<String> stringList = ['a', 'b', 'c', 'd', 'e'];
   List dynamicList = [1, 10.1, 'Dicoding', true];
 
+  //Cara memanggil semua data list
   print(numberList);
   print(stringList);
   print(dynamicList);
 
-
+  //Cara memanggil per data melalui index []
   print(numberList[0]);
   print(stringList[1]);
   print(dynamicList[2]);
@@ -36,10 +38,10 @@ void myListLoop (){
 //List .forEach
 void myListForEach(){
   List<String> stringList = ['Dio', 'Puja', 'Andika'];
-  stringList.forEach((s)=>print(s));
+  stringList.forEach((s)=>print(s)); //Menampilkan data menggunakan .forEach
 }
 
-//List .add / .insert
+//List .add / .insert => Menambahkan data
 void addList(){
   List<String> stringList = ['USA', 'Swiss', 'Singapore'];
   stringList.add('Japan');  //.add => menambahkan list
