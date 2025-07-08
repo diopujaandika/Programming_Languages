@@ -14,6 +14,11 @@
       /// int age = null; => terjadi error
       /// String? favoriteFood = null; => tanda ? mengartikan variable boleh memiliki nilai null (non-nullable)
 
+///ada 2 tanda yang harus diingat yaitu ? (boleh null) dan ! (tidak boleh null)
+///namaVariabel?, itu berarti variable boleh bernilai kosong (null)
+///namaVaribale!, itu berarti variable tidak boleh bernilai kosong (null)
+
+
 void main(){
   String? favoriteFood = null;
   buyAMeal(favoriteFood);
