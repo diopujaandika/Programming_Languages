@@ -1,5 +1,6 @@
 ///COLLECTION
-///SET digunakan untuk menyimppan data yang unik.
+///SET digunakan untuk menyimpan data yang unik.
+///Sintak => Set<dataType> setName = new Set.from([value1, value2, value3, ..., valueN]);
 
 void main(){
   mySet();
