@@ -1,4 +1,3 @@
-import 'dart:io';
 ///FUNCTIONS
 ///Function adalah sebuah fungsi yang dibisa kita panggil berkali-kali.
 
