@@ -11,6 +11,7 @@
 
 void main(){
   myMap();
+  country();
 }
 
 void myMap(){
@@ -33,4 +34,13 @@ void myMap(){
   //Untuk menambahkan key-value
   dynamicVar['Key Baru'] = 14;
   print(dynamicVar);
+}
+
+void country (){
+  var capital = {
+  'Jakarta' : 'Indonesia',
+};
+
+capital ['New Delhi'] = 'India';
+print(capital['Indoenesia']);
 }
