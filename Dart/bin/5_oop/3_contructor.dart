@@ -9,6 +9,10 @@
 void main(){
   var dicodingCat = Animal('Gray', 2, 3.4);
   print(dicodingCat);
+
+  var person = Person("Dio", "Bengkulu");
+  print(person.name);
+  print(person.address);
 }
 ///NAMED CONSTRUCTOR
 ///class_name.constructor_name(arguments){//Statement}
@@ -32,3 +36,16 @@ class Animal{
   Animal.age(this.age);
   Animal.weight(this.weight);
 }
+
+class Person{
+  String name = "Guest";
+  String? address;
+  final String country = "Indonesia";
+
+  //Constructor
+  Person(String paramName, String paramAddress){
+    name = paramName;
+    address = paramAddress;
+  }
+}
+
