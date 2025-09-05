@@ -8,7 +8,7 @@ void main (){
    * -Expression
    * -Comment
    * -Variable
-   * -Tipe Data
+   * -DataType
    * -Operator
    */
   print('Hello World!');

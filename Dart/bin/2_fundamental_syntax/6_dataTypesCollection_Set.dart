@@ -12,11 +12,11 @@ void mySet(){
   print(anothers);
 
   //Menambahkan Data => add() atau addAll()
-  anothers.add(6);
+  anothers.add(6); 
   anothers.addAll({2,4,10,11});
   print(anothers);
 
-  //Menghapus Data => remove()
+  //Menghapus Data => remove()   
   anothers.remove(3);
   print(anothers);
   
