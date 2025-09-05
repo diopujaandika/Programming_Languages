@@ -1,8 +1,8 @@
 ///VARIABLE
-///Variable adalah wadah untuk menampung suatu nilai.
-///Penulisan variable dalam Dart
-///1. Statically Typed
-///2. Type Inference
+//Variable adalah wadah untuk menampung suatu nilai.
+//Penulisan variable dalam Dart
+//1. Statically Typed
+//2. Type Inference
 
 void main(){
   
@@ -18,12 +18,13 @@ void main(){
 
   //2. Type Inference (var, const, final) = valueVariable
   /**
-   * Type Inference berarti suatu bahasa pemrograman secara otomatis akan mengetahui tipde data yang digunakan oleh suatu variable.
+   * Type Inference berarti suatu bahasa pemrograman secara otomatis akan mengetahui tide data yang digunakan oleh suatu variable.
    * Cara penulisan : keyword (var, late, const, atau final) namaVariable = nilaiVariable
    */
-  var variable1 = 1;    //Mutable  
-  const variable2 = 2;  //Immutable Variable & Value
-  final variable3 = 3;  //Immutable Variable 
+  var variable1 = 1;    //Mutable => variable dan value dapat diubah
+  const variable2 = 2;  //Immutable Variable & Value => variable tidak dapat diubah dan mengharuskan penginisialisasian value sebelum runtime (program dijalankan).
+  final variable3;
+  variable3 = 3;  //Immutable Variable => varible tidak dapat diubah dan memungkinkan penginisialisasian value ketika runtime (aplikasi dijalankan).
   print(variable1+variable2*variable3);
 
   //Excample Simple

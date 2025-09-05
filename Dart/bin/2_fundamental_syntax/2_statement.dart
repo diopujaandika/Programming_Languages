@@ -1,10 +1,15 @@
 ///STATEMENT
-///Statement adalah instruksi yang akan diesksekusi oleh komputer ketika program dijalankan.
 
 void main(){
-    String name = 'Dio Puja Andika';
-    int age = 22;
-    print(name.runtimeType);
-    print('${name.runtimeType}');
-    print('Hello, my name is $name, my current age is $age');
+    //Statement adalah instruksi yang akan diesksekusi oleh komputer ketika program dijalankan.
+    //Setiap statement dalam Dart diakhiri dengan tanda semicolon [;].
+
+    //Contoh Statement
+    String name = 'Dio Puja Andika';                          //Statement 1
+    int age = 22;                                             //Statement 2
+    print(name.runtimeType);                                  //Statement 3
+    print('Nilai $name bertype ${name.runtimeType}');         //Statement 4
+    print(age.runtimeType);                                   //Statement 5
+    print('Nilai $age bertype ${age.runtimeType}');           //Statement 6
+    print('Hello, my name is $name, my current age is $age'); //Statement 7
 }
