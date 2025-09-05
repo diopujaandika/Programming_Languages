@@ -1,14 +1,14 @@
 ///EXCEPTIONS
-  ///Exceptions adalah keadaan saat aplikasi di runtime terjadi error atau crash.
-  ///Ketika exception terjadi, aplikasi akan dihentikan dan kode program setelahnya tidak akan dieksekusi.
-  ///Exceptions memiliki setidaknya 3 block dasar yaitu:
-    ///1. try => untuk menampung kode-kode yang kemungkinan terjadi error atau crash
-    ///2. on Exception => untuk mengatasi exception yang diketahui secara spesifik
-    ///3. catch => untuk mengatasi exception yang tidak diketahui secara spesifik
-    ///4. final => untuk tetap menjalankan kode tanpa peduli hasi dari yang teradi pada blok try-catch
+  //Exceptions adalah keadaan ketika aplikasi di runtime terjadi error atau crash.
+  //Ketika exception terjadi, aplikasi akan dihentikan dan kode program setelahnya tidak akan dieksekusi.
+  //Exceptions memiliki setidaknya 4 block dasar yaitu:
+    //1. try => untuk menampung kode-kode yang kemungkinan terjadi error atau crash
+    //2. on Exception => untuk mengatasi exception yang diketahui secara spesifik
+    //3. catch => untuk mengatasi exception yang tidak diketahui secara spesifik
+    //4. final => untuk tetap menjalankan kode tanpa peduli hasi dari yang teradi pada blok try-catch
 
 void main(){
-  try{  //block try digunakan sebagai block kode yang kemungkinan terjadi erro/crash
+  try{  //block try digunakan sebagai block kode yang kemungkinan terjadi error/crash
     var a = 7;
     var b = 0;
     print(a ~/ b);

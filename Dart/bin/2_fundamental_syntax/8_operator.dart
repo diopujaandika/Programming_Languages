@@ -37,9 +37,9 @@ void main(){
   print(2 <= 1);  //Kurang dari sama dengan
 
   //Operator Logika
-  print(true && true);    //AND
-  print(true || false);   //OR
-  print(!true);           //NOT
+  print(true && true);    //AND (Kedua-duanya True)
+  print(true || false);   //OR (Salah-satunya True )
+  print(!true);           //NOT (Kebalikan dari value)
 
   //Contoh
   contoh();
