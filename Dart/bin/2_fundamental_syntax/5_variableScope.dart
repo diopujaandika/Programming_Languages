@@ -1,5 +1,5 @@
 ///VARIABLE SCOPE
-///Setiap variable memliki scope atau lingkupnya masing-masing. Variable dianggap satu scope yang sama, jika masih berada dalam satu blok kurung kurawal yang sama.
+//Setiap variable memliki scope atau lingkupnya masing-masing. Variable dianggap satu scope yang sama, jika masih berada dalam satu blok kurung kurawal yang sama.
 
 void main(){
   //1. Conth pertama variable dalam 1 scope yang sama
