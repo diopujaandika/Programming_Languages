@@ -15,21 +15,22 @@
 ///5. required parameter => {required type param1, required type param2, ...}
 
 void main(){
-  greet('Dio Puja Andika', 'Dart');
+  greet('Dio Puja Andika', 'Dart'); //memanggil function greet
 
   var firstNum = 7;
   var secondNum = 10;
   print('Rata-rata $firstNum & $secondNum adalah ${average(firstNum, secondNum)}');
 
+  average(2, 3);   //function mengembalikan nilai
+
   print(penjumlahan(20, 30));
 
   greetNewUser1(); //function value default
-  greetNewUser2('Wildan', 10, false);
-
-  average(2, 3);   //function mengembalikan nilai
+  greetNewUser2(age: 10, name: 'Wildan', isVerified: false);
+  greetNewUser3(name: 'Dio', age: 22, isVerified: true);
 }
 
-//Function yang tidak mengembalikan nilai adalah void
+//Function yang tidak menghasilkan output atau tidak mengembalikan nilai adalah void
 void greet(String param1, String param2){
   print('Halo $param1, selamat datang di $param2!');
 }
@@ -48,8 +49,12 @@ void greetNewUser1([String name = 'dune', int age=10, bool isVerified=true]){
   print('my name is $name, my current age  is $age years old. $isVerified');
 }
 
-//Optional Parameters (?)
-void greetNewUser2([String? name, int? age, bool? isVerified]){}
+//Optional Parameters dengan named optional parameters (?) memungkinkan memasukkan parameter tanpa mempedulikan urutan parameternnya dengan hanya menyebut nama parameternya.
+void greetNewUser2({String? name, int? age, bool? isVerified}){
+  print('nama saya adalah $name, saat ini saya berusia $age, status saya $isVerified');
+}
 
-//Optional Parameter (required)
-void greetNewUser3({required String name, required int age, required bool isVerified}){}
+//Optional Parameter dengan (required) membuat parameter wajib disi
+void greetNewUser3({required String name, required int age, required bool isVerified}){
+    print('nama saya adalah $name, saat ini saya berusia $age, status saya $isVerified');
+}
