@@ -19,3 +19,5 @@ const statement1 = "Ini Statement 1"; const statement2 = "Ini statement 2"; cons
 const namaKarakter = 'Djocean'
 const jenisKarakter = 'Decaelo'
 const levelKarakter = 100 
+
+console.log(namaKarakter+levelKarakter);

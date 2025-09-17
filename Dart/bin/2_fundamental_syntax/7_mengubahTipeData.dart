@@ -1,8 +1,8 @@
 ///Mengubah Tipe Data
 
 void main(){
-  //1. String => int
-  var eleven = int.parse("111");
+  //1. String => int 
+  var eleven = int.parse("111"); 
   print('$eleven bertipe ${eleven.runtimeType}');
 
   //2. String => double

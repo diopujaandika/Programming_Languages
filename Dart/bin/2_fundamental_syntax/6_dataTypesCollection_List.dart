@@ -1,6 +1,6 @@
 ///COLLECTION
-///LIST digunakan untuk menyimpan segala jenis data!
-///Sintak => List<dataType> listName = [value1, value2, value3, ...];
+//LIST digunakan untuk menyimpan segala jenis data!
+//Sintak => List<dataType> listName = [value1, value2, value3, ...];
 
 void main(){
   mylist();
@@ -37,7 +37,7 @@ void myListLoop (){
 
 //List .forEach
 void myListForEach(){
-  List<String> stringList = ['Dio', 'Puja', 'Andika'];
+  List<String> stringList = ['Dio', 'Puja', 'Andika']; 
   stringList.forEach((s)=>print(s)); //Menampilkan data menggunakan .forEach
 }
 
