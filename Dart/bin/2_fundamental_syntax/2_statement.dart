@@ -12,4 +12,11 @@ void main(){
     print(age.runtimeType);                                   //Statement 5
     print('Nilai $age bertype ${age.runtimeType}');           //Statement 6
     print('Hello, my name is $name, my current age is $age'); //Statement 7
+
+    //Contoh Statement
+    String namaDepan = "Dio";
+    String namaBelakang = "Andika";
+
+    print(namaDepan + namaBelakang);
+    print('Nama saya adalah $namaDepan. Biasa dipanggil $namaBelakang.');
 }
