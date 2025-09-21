@@ -1,8 +1,10 @@
-///COMMNET adalah instruksi yang dibuat tetapi tidak akan dieksekusi (diabaikan) oleh komputer ketika program dijalankan.
-/// Di dalam Dart terdapat 3 jenis comment yang dapat digunakan:
+///COMMNET 
+///Pengertian: Instruksi yang dibuat tetapi tidak akan dieksekusi (diabaikan) oleh komputer ketika program dijalankan.
+///Fungsi: Memberikan catatan penting pada kode program.
+///Jenis: Di dalam Dart terdapat 3 jenis comment yang dapat digunakan:
 ///1. Single line comment => //Comment
 ///2. Multi line comment => /**/Comment
-///3. Documentation comment => ///Comment[Comment]
+///3. Documentation comment => ///Comment
 
 ///Documentation Comment
 ///Fungsi [main] akan menampilkan 2 Output
@@ -10,13 +12,15 @@
 
 void main(List<String> arguments){
   //Single line Comment
-  //Mencetak Hello Dart! Dart is great in konsole.
   print('Belajar Membuat Comment di Dart!');
   print("Hello Dart! Dart is that the Single line Comment.");
   
   //Multi line comment
   /* 
-   * Multi line commnet
+   * Line 1
+   * Line 2
+   * Line 3
+   * Dst.
    */
   print("Multi line Comment! 6 * 7 = ${calculate()}");
 }
