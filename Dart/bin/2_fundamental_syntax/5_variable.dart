@@ -14,7 +14,11 @@ void main(){
   String namaDepan = "Dio";
   String namaTengah = "Puja";
   String namaBelakang = "Andika";
+  int tahunLahir = 2002;
+  int tahunSekarang = 2025;
+  int usia = tahunSekarang - tahunLahir;
   print(namaDepan + namaTengah + namaBelakang);
+  print('Usia $namaDepan saat ini adalah $usia tahun');
 
   //2. Type Inference (var, const, final) = valueVariable
   /**
