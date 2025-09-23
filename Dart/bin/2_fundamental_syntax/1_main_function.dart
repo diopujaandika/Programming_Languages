@@ -3,5 +3,6 @@
 void main(){
   //main function adalah fungsi utama yang akan dijalankan oleh Dart.
   print("Hello World!");
-  print("Hello Dio Puja Andika");
+  print("Welcome to the Dart!");
+  print("Hello Mr. Dio Puja Andika!");
 }
