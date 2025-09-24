@@ -27,8 +27,12 @@ void main(){
   //3. bool => Tipe data yang digunakan untuk inisialisasi true/false.
   bool varBool1 = true; //true
   bool varBool2 = false; //false
+  bool notTrue = !true; //false
+  bool notFalse = !false; //true
   print('$varBool1, $varBool2');
   print('${varBool1.runtimeType}, ${varBool2.runtimeType}');
+  print('$notTrue, $notFalse');
+  print('${notTrue.runtimeType}, ${notFalse.runtimeType}');
 
   //4. List => Tipe data yang digunakan untuk inisialisasi daftar nilai
   List varListNum = [1,2,3,1.1,2.2,3.3]; //Daftar list angka
