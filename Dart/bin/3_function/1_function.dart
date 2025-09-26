@@ -31,8 +31,10 @@ void main(){
   greetNewUser1(); //function value default
   greetNewUser1a();
   greetNewUser2(age: 10, name: 'Wildan', isVerified: false);
+  greetNewUser2a(isVerified: false, age: 10, name: 'Wildan');
   greetNewUser3(name: 'Dio', age: 22, isVerified: true);
-}
+  greetNewUser3(isVerified: true, name: 'Dio', age: 22,);
+} 
 
 //Function yang tidak menghasilkan output atau tidak mengembalikan nilai adalah void
 void greet1(String param1, String param2){
@@ -70,8 +72,14 @@ void greetNewUser1a([String name= 'User', int age = 23, bool isVerified = true])
 void greetNewUser2({String? name, int? age, bool? isVerified}){
   print('nama saya adalah $name, saat ini saya berusia $age, status saya $isVerified');
 }
+void greetNewUser2a({String? name, int? age, bool? isVerified}){
+  print('$name, $age, $isVerified');
+}
 
 //Optional Parameter dengan (required) membuat parameter wajib disi
 void greetNewUser3({required String name, required int age, required bool isVerified}){
     print('nama saya adalah $name, saat ini saya berusia $age, status saya $isVerified');
+}
+void greetNewUser3A({required String? name, required int? age, required bool? isVerified}){
+   print('nama saya adalah $name, saat ini saya berusia $age, status saya $isVerified');
 }
