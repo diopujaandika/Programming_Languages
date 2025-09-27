@@ -33,7 +33,7 @@ void main(){
   greetNewUser2(age: 10, name: 'Wildan', isVerified: false);
   greetNewUser2a(isVerified: false, age: 10, name: 'Wildan');
   greetNewUser3(name: 'Dio', age: 22, isVerified: true);
-  greetNewUser3(isVerified: true, name: 'Dio', age: 22,);
+  greetNewUser3A(isVerified: true, name: 'Diomo', age: 22,);
 } 
 
 //Function yang tidak menghasilkan output atau tidak mengembalikan nilai adalah void
