@@ -2,6 +2,6 @@
 /**
  * Pemrograman adalah sekumpulan instruksi sistematis yang akan dieksekusi dengan komputer. 
  */
-nama : "Zidan";
+String nama = "Zidan";
 
 console.log(nama);

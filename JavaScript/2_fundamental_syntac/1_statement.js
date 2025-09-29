@@ -20,4 +20,4 @@ const namaKarakter = 'Djocean'
 const jenisKarakter = 'Decaelo'
 const levelKarakter = 100 
 
-console.log(namaKarakter+levelKarakter);
+console.log(namaKarakter+levelKarakter);  

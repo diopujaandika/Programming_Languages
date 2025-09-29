@@ -14,9 +14,9 @@ void main(){
     print('Hello, my name is $name, my current age is $age'); //Statement 7
 
     //Contoh Statement
-    String namaDepan = "Dio"; //statement
+    String namaDepan = "Dio";       //statement
     String namaBelakang = "Andika"; //statement
 
-    print(namaDepan + namaBelakang);
+    print(namaDepan + namaBelakang); 
     print('Nama saya adalah $namaDepan. Biasa dipanggil $namaBelakang.');
 }
