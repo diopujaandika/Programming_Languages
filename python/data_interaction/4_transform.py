@@ -52,3 +52,5 @@ print('Dicoding'.center(10, '-'))
 #String Literals
 print("Halo!\nKapan terakhir kali kita bertemu?\nKita bertemu hari Jum\'at yang lalu.")
 
+#Raw String
+print(r'Dicoding\tIndonesia')
