@@ -48,3 +48,7 @@ print('Dicoding'.rjust(20))
 print('Dicoding'.rjust(20, '!'))
 print('Dicoding'.ljust(20))
 print('Dicoding'.center(10, '-'))
+
+#String Literals
+print("Halo!\nKapan terakhir kali kita bertemu?\nKita bertemu hari Jum\'at yang lalu.")
+
