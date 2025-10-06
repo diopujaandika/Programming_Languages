@@ -14,7 +14,7 @@ print(kata.strip("Code"))
 print('Dicoding Indonesia'.startswith('Dicoding'))
 print('Dicoding Indonesia'.endswith('Dicoding'))
 
-#Memeisahkan dan menggabungkan String
+#Memisahkan dan menggabungkan String
 print(' ' .join(['Dicoding', 'Indonesia', '!']))
 print('123'.join(['Dicoding','Indoenesia']))
 print('Dicoding Indoenesia!'.split())
@@ -25,3 +25,8 @@ aku tinggal di perairan.
 Badanku licin dan renangku cepat.
 Senang berkenalan denganmu.'''.split('\n'))
 
+#Mengganti Elemen String
+string = "Ayo belajar Coding di Dicoding"
+print(string.replace("Coding", "Pemrograman"))
+
+#Pengecekan String
