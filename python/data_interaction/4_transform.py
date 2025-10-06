@@ -30,3 +30,12 @@ string = "Ayo belajar Coding di Dicoding"
 print(string.replace("Coding", "Pemrograman"))
 
 #Pengecekan String
+kata = "Dicoding"
+print(kata.isupper())
+kata = "dicoding"
+print(kata.islower())
+kata = 'dicoding'
+print(kata.isalpha())
+print('123'.isdecimal())
+print('             '.isspace())
+print('Dicoding Indonesia'.istitle())
