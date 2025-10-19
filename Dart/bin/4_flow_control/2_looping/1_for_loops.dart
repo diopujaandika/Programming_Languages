@@ -5,11 +5,20 @@
 
 void main(){
   myFor1();
+  myFor2();
 }
 
 //For
 void myFor1(){
   for(int i = 1; i<=10; i++){
     print(i);
+  }
+}
+
+void myFor2(){
+  for (int i=1; i<=3; i++){
+    for(int j=1; j<=i; j++){
+      print(j);
+    }
   }
 }

@@ -2,6 +2,8 @@
 /**
  * Pemrograman adalah sekumpulan instruksi sistematis yang akan dieksekusi dengan komputer. 
  */
-String nama = "Zidan";
+var name = "Marisa Amelia";
+var age = 22;
 
-console.log(nama);
+console.log(name);
+console.log(age);

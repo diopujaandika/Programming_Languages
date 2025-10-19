@@ -16,8 +16,8 @@ console.log(`Aku ${nama}, angka favoriteku ${usia} tahun.`) //Statement 3
 const statement1 = "Ini Statement 1"; const statement2 = "Ini statement 2"; const statement3 = "Ini Statement 3"; console.log(statement1, statement2, statement3);
 
 //Contoh 4: 
-const namaKarakter = 'Djocean'
-const jenisKarakter = 'Decaelo'
-const levelKarakter = 100 
+const namaKarakter = 'Djocean';
+const jenisKarakter = 'Decaelo';
+const levelKarakter = 100;
 
 console.log(namaKarakter+levelKarakter);  
