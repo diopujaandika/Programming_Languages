@@ -23,7 +23,7 @@ void main(List<String> arguments){
    * Dst.
    */
   print("Multi line Comment! 6 * 7 = ${calculate()}");
-  print("Dio")
+  print("Dio");
 }
 
 int calculate(){
