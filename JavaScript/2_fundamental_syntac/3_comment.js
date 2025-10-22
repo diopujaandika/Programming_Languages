@@ -5,10 +5,10 @@
  */
 
 
-//Single Line Comment 
+//Single Line Comment => Comment satu baris!
 
 /**
- * Multiple Line Comment
+ * Multiple Line Comment => Comment banyak baris!
  * 1. Comment 1
  * 2. Comment 2
  * 3. Comment 3
