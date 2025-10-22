@@ -7,3 +7,4 @@ var age = 22;
 
 console.log(name);
 console.log(age);
+console.log(`Hai, nama saya adalah ${name}, saya berusia ${age}`);
