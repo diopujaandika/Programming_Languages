@@ -18,6 +18,8 @@ const statement1 = "Ini Statement 1"; const statement2 = "Ini statement 2"; cons
 //Contoh 4: 
 const namaKarakter = 'Djocean';
 const jenisKarakter = 'Decaelo';
-const levelKarakter = 100;
-
-console.log(namaKarakter+levelKarakter);  
+const levelMax = 100;
+const levelMin = 1;
+//Operator assignment
+console.log(namaKarakter+levelMax); 
+console.log(levelMax+levelMin);
