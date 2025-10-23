@@ -17,3 +17,6 @@
 console.log('Hai, Readers!');
 console.log('Hai, JavaScript');
 console.log("Dio Puja Andika");
+
+const PI = '3.14';
+console.log(PI);
