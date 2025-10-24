@@ -11,5 +11,5 @@
 
 //Contoh sederhana Function Default
     function greetWorld(){
-        console.log('Hello World')
+        console.log('Hello World!')
     }
