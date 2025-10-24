@@ -43,13 +43,13 @@
     console.log(isGreater)
 
 //Nilai Kosong (Null & Undefined)
-    //Null adalah expression yang dideklarasikan secara eksplisit
+    //Null adalah expression yang dideklarasikan secara eksplisit atau sengaja dikosongkan
     //Contoh
     let messageNull = null
     console.log(typeof(null))
     console.log(messageNull)
     
-    //Undefined adalah expression yang dideklarasikan implisit
+    //Undefined adalah expression yang dideklarasikan implisit atau belum didefinisikan
     let messageUndefined 
     console.log(messageUndefined)
 

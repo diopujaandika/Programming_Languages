@@ -4,8 +4,9 @@
  * Operan adalah nilai yang menjadi target dari sebuah operasi.
  * 
  * Jenis-jenis Operator
- * 1.
- * 
+ * 1. Unary
+ * 2. Binary
+ * 3. Ternary
  */
 
 //Contoh
