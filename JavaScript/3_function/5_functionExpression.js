@@ -1,6 +1,10 @@
 /**
  * FUNCTION EXPRESSION
  * Function Expression adalah function yang mengembalikan nilai function
+ * Sintak:
+ *  keywordVariable nameIdentifier = keywordFunction(param1, param2, ...){
+ *      body Function;
+ * }
  */
 
 //Contoh

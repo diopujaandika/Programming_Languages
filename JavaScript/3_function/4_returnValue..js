@@ -11,7 +11,7 @@ function sumNumber(a, b){
 const askNumber = sumNumber(3, 4)
 console.log(`Hasilnya adalah ${askNumber}`) 
 
-//Return Value membaut function statement berhenti dieksekusi jika kode sudah mencapai return statement
+//Return Value membuat function statement berhenti dieksekusi jika kode sudah mencapai return statement
 function generateGreetingWorldMessage(){
     return 'Hello World'
     console.log('Aku tidak akan tampil')
