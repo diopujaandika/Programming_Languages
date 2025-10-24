@@ -6,7 +6,7 @@
     4. Null & Undefined
  */
 
-//String
+//String => Tipe data huruf
     //Single Quote
     const myString = 'Dicoding' 
     //typeOf(variable) => Keyword yang digunakan untuk melihat type data
@@ -18,7 +18,7 @@
     console.log(`Ini merupakan contoh string di 
         JavaScript dengan Backtick ${myString}`) //Strind dengan backtick
     
-//Number
+//Number => Tipe data angka
     //Bilangan bulat
     const resultNumber = 50
     console.log(typeof(resultNumber))
@@ -33,7 +33,7 @@
     const resultNaN = Number('Dicoding') //String
     console.log(resultNaN)
 
-//Boolean
+//Boolean => Tipe data benar/salah
     //True
     const completed = true
     //False

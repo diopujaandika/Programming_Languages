@@ -1,6 +1,6 @@
 /**
  * OUTPUT
- * Output itu adalah keluaran dan dalam Java script Untuk menampilkan output kita dapat menggunakan perintah :
+ * Output itu adalah keluaran dan dalam Java Script. Untuk menampilkan output kita dapat menggunakan perintah :
  * [console.log(Output)]
  */
 
