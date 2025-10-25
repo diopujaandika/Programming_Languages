@@ -3,9 +3,18 @@
  * If Statement adalah fundamental statement yang memungkinkan JavaScript untuk membuat keputusan apakah mengeksekusi program atau tidak jika suatu kondisi terpenuhi.
  * if (expression){
  *      statement
- * }    
+ * }   
+ * If Statement akan mengeksekusi block jika kondisi terpenuhi (true) 
  */
 
+holiday(false)
+function holiday (gajian){
+    console.log("Berjalan-jalan di Mall");
+    if(gajian){
+        console.log("Makan di restoran mall");
+    }
+    console.log('Pulang ke rumah!');
+}
 //1. If Statement 1 Cabang
     const uang = true
     console.log('Pulang dari Kampus')
