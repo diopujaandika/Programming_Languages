@@ -7,7 +7,7 @@
 /**
  * Kemudian setelah di adobsi di luar Netscape, Js distandarisasi oleh organisasi Internasional bernama European Computer Manufacturers Association (ECMA), dan standar bahasa pemrogaman di bawah lisensi ECMA akan mengikuti standart dari ECMA, yang dikenal dengan ECMAScript.
  * Sehingga JavaScript akan selalau mengikuti standar dari ECMAScript.
- * Jadi:
- * 1. JavaScript itu => Bahasa Pemrograman
- * 2. ECMAScript itu => Standar Bahasa Pemrograman
  */
+
+console.log("JavaScript itu => Bahasa Pemrograman");
+console.log("ECMAScript itu => Standar Bahasa Pemrograman");
