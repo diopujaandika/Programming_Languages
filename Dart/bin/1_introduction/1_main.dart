@@ -1,6 +1,6 @@
 /**
  * Apa Itu Dart?
- *  Dart : bahasa pemrograman open source dan general purpose.
+ *  Dart : bahasa pemrograman open source dan general purpose dan open source.
  *  Dikembangkan : Google.
  *  Pencipta : Lars Bak dan Kasper Lund.
  *  Diperkenalkan: GOTO Conference 2011.
@@ -20,9 +20,10 @@
 
 //Bagaimana cara membuat program dart?
 void main (){
-  print("Hello World!");
+ welcome("Dio Puja Andika", "Dart");
+}
 
-  var name = 'Dicoding';
-  String language = 'Dart';
-  print('Hello $name. Welcome to $language');
+void welcome(name, language){
+  print('Hello World!');
+  print("Welcome to $language. Hello Mr. $name");
 }
