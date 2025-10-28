@@ -1,5 +1,5 @@
 ///SWITCH and CASE
-///Switch and Case adalah pengkondisian yang digunakan untuk mengecek suatu kondisi dengan skala yang lebih besar
+///Switch and Case adalah pengkondisian yang digunakan untuk mengecek suatu kondisi dengan skala yang lebih besar sehingga program akan lebih mudah dan ringkas.
 
 ///Sintak
 ///   switch (variable/expression){

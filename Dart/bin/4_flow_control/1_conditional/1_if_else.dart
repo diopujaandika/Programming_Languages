@@ -1,5 +1,6 @@
-///IF & ELSE
-///If 
+/// IF & ELSE
+/// If adalah salah satu flow control yang digunakan untuk menentukan alur program berdasarkan kondisi yang terjadi. 
+/// Jika hasilnya adalah true maka program akan terus dijalankan dan jika false maka proses yang ditentukan akan dilewatkan.
 
 void main(){
   controlIf();

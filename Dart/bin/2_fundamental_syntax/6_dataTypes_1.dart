@@ -2,7 +2,7 @@ import 'dart:io';
 
 ///DATA TYPES
 ///Data Type atau tipe data adalah jenis data yang digunakan dalam suatu variable.
-///Data Type Dart dibagi menjadi 2 yaitu Data Type Basic (String, Integer, Double, Number, Boolean, dan Dynamic) dan Data Type Collection (List dan Map)
+///Data Type Dart dibagi menjadi 2 yaitu Data Type Basic (String, Integer, Double, Number, Boolean, dan Dynamic) dan Data Type Collection (List, Set, dan Map)
 
 void main(){  
   //1. String => Tipe data yang digunakan untuk inisialisasi karakter, kata, hingga kalimat.
