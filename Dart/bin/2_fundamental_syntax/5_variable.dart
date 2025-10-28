@@ -1,11 +1,10 @@
 ///VARIABLE
-//Variable adalah wadah untuk menampung suatu nilai.
+//Variable adalah wadah untuk menampung suatu.
 //Penulisan variable dalam Dart
 //1. Statically Typed
 //2. Type Inference
 
 void main(){
-  
   //1. Statically Type 
   /** 
    * Staticallly Type berarti suatu bahasa pemrograman mendukung inisialisasi tipe data sebelum variable digunakan.

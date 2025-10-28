@@ -4,7 +4,7 @@
 ///Jenis: Di dalam Dart terdapat 3 jenis comment yang dapat digunakan:
 ///1. Single line comment => //Comment
 ///2. Multi line comment => /**/Comment
-///3. Documentation comment => ///Comment atau /**
+///3. Documentation comment => ///Comment atau /**Comment yang diikut dengan [Something]
 
 ///Documentation Comment
 ///Fungsi [main] akan menampilkan 2 Output
