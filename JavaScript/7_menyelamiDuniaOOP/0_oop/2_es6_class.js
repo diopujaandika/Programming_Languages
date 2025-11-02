@@ -1,7 +1,7 @@
 // ES6
 /*
-    ES6 Class
-    
+    ES6 Class adalah cara yang lebih modern untuk membuat konsep class ada di JS.
+    ES6 memungkinkan kita untuk menggunakan method super untuk menmanggil constructor SuperClass.
  */
 
 class Person {
