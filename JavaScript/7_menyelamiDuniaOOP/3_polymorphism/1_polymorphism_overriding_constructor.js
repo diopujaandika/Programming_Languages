@@ -17,22 +17,22 @@ class SmartPhones {
         this.brand = brand;
         this.model = model;
     }
-    charging(){
+    charging() {
         console.log('Charging is', this.model);
     }
 }
 
 class Android extends SmartPhones{
     // Overriding Constructor
-    constructor(color, brand, model, device){
+    constructor(color, brand, model, device) {
         super(color, brand, model);
         this.device = device;
     }
     splitScreen(){
-        console.log('Android have a Split Screen')
+        console.log('Android have a Split Screen');
     }
 }
 
-const android = new Android('White', 'B', 'Galaxy S21', 'Smart TV')
+const android = new Android('White', 'B', 'Galaxy S21', 'Smart TV');
 
-android.charging()
+android.charging();
