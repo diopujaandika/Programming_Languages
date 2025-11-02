@@ -9,7 +9,7 @@ let b = '5'
     //1. Sama [==] (Nilai Sama, Tipe Data Diabaikan)
     console.log(a==b) //True
 
-    //2. Identek [===] (Nilai Sama, Tida Data Sama)
+    //2. Identik [===] (Nilai Sama, Tida Data Sama)
     console.log(a===b) //False
 
     //3. Tidak Sama [!=] (Nilai dan Tipe Data Diabaikan, Jika True manjadi False dan Sebaliknya)

@@ -1,6 +1,6 @@
 ///VARIABLE
 //Variable adalah wadah untuk menampung suatu.
-//Penulisan variable dalam Dart
+//Penulisan variable dalam Dart:
 //1. Statically Typed
 //2. Type Inference
 

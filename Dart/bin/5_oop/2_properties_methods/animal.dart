@@ -12,8 +12,8 @@ class Animal {
   //Getter
   double get weight => _weight;
   int get age => _age;
-  
-  //Constructor
+
+  //Constructor => 
   Animal(this._name, this._age, this._weight);
 
   //Methods
