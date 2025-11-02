@@ -3,23 +3,24 @@
  * Object Composition adalah cara yang digunakan sebagai solusi untuk masalah pewarisan yang kompleks.
  */
 
-//Contoh
+//Contoh karakter game (monster, wizard, dan guardian)
+
 class Character{
     constructor(name, health, position){
-        this.name = name
-        this.health = health
-        this.position = position
+        this.name = name;
+        this.health = health;
+        this.position = position;
     }
 
     canMove(){
-        console.log(`${this.name} moves to another position!`)
+        console.log(`${this.name} moves to another position!`);
     }
 }
 
 function canAttack(character){
     return{
         attack: () => {
-            console.log(`${character} attacks with a weapon!`)
+            console.log(`${character} attacks with a weapon!`);
         }
     }
 }
@@ -27,7 +28,7 @@ function canAttack(character){
 function canDefend(character){
     return{
         defend: () => {
-            console.log(`${character} defends with a shield!`)
+            console.log(`${character} defends with a shield!`);
         }
     }
 }
@@ -35,34 +36,35 @@ function canDefend(character){
 function canCastSpell(character){
     return{
         castSpell: () => {
-            console.log(`${character} casts a spell!`)
+            console.log(`${character} casts a spell!`);
         }
     }
 }
 
+// Object.assign() => method statis untuk menyalin semua property dari satu atau lebih object target. Object.assign() akan mengembabalikan object target yang dimodifikasi.
 function createMonster(name){
-    const character = new Character(name, 100, 0)
-    return Object.assign(character, canAttack(name))
+    const character = new Character(name, 100, 0);
+    return Object.assign(character, canAttack(name));
 }
 
 function createGuardian(name){
-    const character = new Character(name, 100, 0)
-    return Object.assign(character, canDefend(name))
+    const character = new Character(name, 100, 0);
+    return Object.assign(character, canDefend(name));
 }
 
 function createWizard(name){
-    const character = new Character(name, 100, 0)
-    return Object.assign(character, canCastSpell(name))
+    const character = new Character(name, 100, 0);
+    return Object.assign(character, canCastSpell(name));
 }
 
 function createWarrior(name){
-    const character = new Character(name, 100, 0)
-    return Object.assign(character, canAttack(character), canDefend(character))
+    const character = new Character(name, 100, 0);
+    return Object.assign(character, canAttack(character), canDefend(character));
 }
 
-const monster = createMonster('Monster')
-monster.canMove()
-monster.attack()
+const monster = createMonster('Monster');
+monster.canMove();
+monster.attack();
 
 const guardian = createGuardian('Guardian');
 guardian.canMove();
