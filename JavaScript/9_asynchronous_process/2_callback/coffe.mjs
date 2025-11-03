@@ -11,3 +11,16 @@ export function makeCoffe(callback) {
         callback();
     }, estimationTime);
 }
+
+export function sendCoffee(callback) {
+    const estimationTime = 2000;
+
+    console.log('Pramusaji sendang mengatarkan kopi pesanan');
+
+    setTimeout(() => {
+        // Do some tasks to send coffee...
+
+        console.log('Pramusaji sudah samapi ke meja.');
+        callback();
+    }, estimationTime);
+}
