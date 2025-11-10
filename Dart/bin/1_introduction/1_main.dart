@@ -21,6 +21,12 @@
 //Bagaimana cara membuat program dart?
 void main (){
  welcome("Dio Puja Andika", "Dart");
+
+ var x;
+  x = 7;
+  x = 'Dart is great';
+  print(x);
+  
 }
 
 void welcome(name, language){
