@@ -1,5 +1,6 @@
 #INPUT => memungkinkan pengguna untuk memberikan masukan, Sintak: input()
 name = input('Masukkan nama Anda: ')    #Input()
+age = input('Masukkan usia Anda: ')
 """
 Output:
 Masukkan nama Anda: Perseus Evans
@@ -7,6 +8,7 @@ Masukkan nama Anda: Perseus Evans
 
 #Output => menampilkan output ke layar komputer, Sintak: print(name)
 print(name) #Output()
+print(age)
 """
 Output:
 Perseus Evans
