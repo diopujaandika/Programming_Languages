@@ -1,14 +1,21 @@
-#NUMBER
-x = 6 #Integer
+"""
+    TIPE DATA
+    Tipe data pada Python dibagi menjadi 2 jenis:
+    1. Tipe Data Primitif => Number, Boolean, String
+    2. Tipe Data Collection
+"""
+
+#NUMBER/Angka
+x = 6 #Integer => Bilangan bulat positif atau negatif
 print(type(x))
 
-x = 6.0 #Float
+x = 6.0 #Float => Bilangan rill berupa bilangan bulat atau desimal
 print(type(x)) 
 
-x = 1+2j
+x = 1+2j #Complex => Bilangan yang dituliskan dalam formasi x + yj, yakni bagian x adalah komponen real dan yj adalah komponen imajiner
 print(type(x))
 
-#Imutable Variable 
+#Immutable Variable (Variable tidak dapat diubah)
 var = 10
 print(var)
 print(id(var))
@@ -79,7 +86,8 @@ coding
 
 #Formatted String
 name = 'Perseus Evans'
-print(f"Hello, nama saya adalah {name}") # 'f' digunakan untuk formating text variable
+age = 23
+print(f"Hello, nama saya adalah {name} usia saya adalah {age} tahun") # 'f' digunakan untuk formating text variable
 """
 Output: 
 Hello, nama saya Perseus Evans
@@ -87,6 +95,7 @@ Hello, nama saya Perseus Evans
 
 #%-formatting
 name = "Perseus Evans"
+age = 23
 print("Name Saya %s" %(name))
 """
 Output: 
@@ -100,6 +109,8 @@ print("Nama Saya {}".format(name))
 Output: 
 Nama saya Perseus Evans
 """
+
+
 
 #List
 x = [1, 2.2, 'Dicoding', True]
