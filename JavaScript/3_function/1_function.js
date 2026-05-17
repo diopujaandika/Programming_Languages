@@ -1,6 +1,6 @@
 /**
  * FUNCTION
- * Function adalah blok kode yang bisa digunakan berulang-ulang untuk melakukan tugas tertentu.
+ * Function adalah blok kode yang dirancang untuk melakukan tugas tertentu dan bisa digunakan berulang kali.
  */
 /**
  * Deklarasi Function
@@ -12,4 +12,7 @@
 //Contoh sederhana Function Default
     function greetWorld(){
         console.log('Hello World!')
+    }
+    function haloDunia(){
+        console.log("Halo Dunia!")
     }

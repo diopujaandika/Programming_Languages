@@ -5,7 +5,7 @@
  * Argument adalah data yang dikirimkkan ke dalam function saat function dipanggil baik berupa nilai langsung ataupun berupan variable
  */
 
-function convertCelsiusToFahrenheit(temperature = 70){   
+function convertCelsiusToFahrenheit(temperature = 70){   //temerature adalah parameter
     const temperatureInFahrenheit = 9/5*temperature+32
 
     console.log('Hasil konversi: ', temperatureInFahrenheit)

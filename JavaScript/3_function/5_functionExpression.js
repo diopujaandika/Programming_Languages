@@ -44,3 +44,4 @@ const double = multiplier(2)
 const truple = multiplier(3)
 
 console.log(double(10))
+console.log(truple(11))
