@@ -1,22 +1,27 @@
 /*
     Tipe data pada JavaScript ada:
-    1. String
-    2. Number
-    3. Boolean
-    4. Null & Undefined
+    1. String       => Tipe data yang expressionnya berupa Huruf
+    2. Number       => Tipe data yang expressionnya berupa Angka
+    3. Boolean      => Iipe data yang expressionnya berupa kondisi Benar dan Salah
+    4. Null         => Tipe data yang expressionnya sengaja bernilai NULL (dikosongkan)
+    5. Undefined    => Tipe data yang expressionnya belum dideklarasikan
  */
 
 //String => Tipe data huruf
     //Single Quote
     const myString = 'Dicoding' 
+    
     //typeOf(variable) => Keyword yang digunakan untuk melihat type data
     console.log(typeof(myString))
-    console.log('Ini merupakan contoh string di JavaScript dengan single quote', myString) //String dengan single quote
+
+    console.log('Ini merupakan contoh string di JavaScript dengan single quote', myString) //String dengan Single Quote
+
     //Double Quote
-    console.log("Ini merupakan contoh string di JavaScript dengan double quote", myString) //Strind dengan duoble quote
+    console.log("Ini merupakan contoh string di JavaScript dengan double quote", myString) //String dengan Duoble Quote
+    
     //Backtick (spesial sebab dapat mendeklarasikan variable langsung dengan menggunakan ${Variable} dan apa yang di console.log akan di tampilkan secara persis seperti enter)
     console.log(`Ini merupakan contoh string di 
-        JavaScript dengan Backtick ${myString}`) //Strind dengan backtick
+        JavaScript dengan Backtick ${myString}`) //String dengan Backtick
     
 //Number => Tipe data angka
     //Bilangan bulat

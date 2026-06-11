@@ -23,3 +23,9 @@ const levelMin = 1;
 //Operator assignment
 console.log(namaKarakter+levelMax); 
 console.log(levelMax+levelMin);
+
+//Contoh 5:
+umur = 18;
+if(umur>=18){
+    console.log("Dewasa");
+}

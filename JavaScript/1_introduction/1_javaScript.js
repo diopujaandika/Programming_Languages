@@ -10,7 +10,7 @@ var year = 2002;
 console.log(greeting);
 console.log(name)
 console.log(`Welcome to the ${greeting}. Nice to meet you Mr. ${name}`);
-console.log(`Saya lahir pada tahun ${year}.);
+console.log(`Saya lahir pada tahun ${year}.`);
 
 /**
  * Serangkaian perintah komputer ditulis oleh developer dalam bentuk kode. Kode dapat berupa sekumpulan:

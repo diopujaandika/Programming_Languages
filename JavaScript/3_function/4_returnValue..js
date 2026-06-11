@@ -13,7 +13,7 @@ console.log(`Hasilnya adalah ${askNumber}`)
 
 //Return Value membuat function statement berhenti dieksekusi jika kode sudah mencapai return statement
 function generateGreetingWorldMessage(){
-    return 'Hello World'
+    return 'Hello World' //Return Value
     console.log('Aku tidak akan tampil')
 }
 const message = generateGreetingWorldMessage()
