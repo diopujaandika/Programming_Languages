@@ -3,7 +3,7 @@
  * Variable adalah wadah untuk menampung sebuah nilai
  * 
  * 4 Cara membuat varible pada JS
- *      1. Automatically => Otomatis akan mengetahui nilainya
+ *      1. automatically => Otomatis akan mengetahui nilainya
  *      2. var => keyword variable pada js yang tidak bisa diinisialisasi ulang dan boleh dikosongkan.
  *      3. let => masih bisa diinisialisasi ulang nilainya dan boleh dikosongkan
  *      4. const => keyword variable pada js yang tidak bisa diinisialisasi ulang nilainya dan tidak boleh dikosongkan
@@ -33,3 +33,14 @@ let username = 'Dicoding';
 
 console.log(id); //Output : 123
 console.log(username); //Output : Dicoding
+
+//ATURAN PENAMAAN VARIABLE
+//1. Tidak boleh memberikan nama yang sama dalam cakupan yang sama
+    //Company data
+    const name = "Dicoding"
+    const legal = 'LLC'
+
+    //Employee data
+    // const name = 'Jhon' //SyntacError karena kita menggunakan nama variable yang sama pada cakupan yang sama
+    const division = 'IT'
+//2. 

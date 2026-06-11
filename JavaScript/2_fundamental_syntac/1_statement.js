@@ -25,7 +25,6 @@ console.log(namaKarakter+levelMax);
 console.log(levelMax+levelMin);
 
 //Contoh 5:
-umur = 18;
-if(umur>=18){
-    console.log("Dewasa");
-}
+const usiaDio = 23;
+const namaDio = "Dio Puja Andika";
+console.log(`Hai, Saya ${namaDio}, Saya berusia ${usiaDio}`);
