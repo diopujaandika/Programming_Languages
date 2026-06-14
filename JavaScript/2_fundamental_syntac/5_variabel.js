@@ -43,4 +43,5 @@ console.log(username); //Output : Dicoding
     //Employee data
     // const name = 'Jhon' //SyntacError karena kita menggunakan nama variable yang sama pada cakupan yang sama
     const division = 'IT'
+    
 //2. 

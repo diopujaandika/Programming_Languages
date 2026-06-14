@@ -1,7 +1,7 @@
 /**
  * OUTPUT
  * Output itu adalah keluaran dan dalam Java Script. Untuk menampilkan output kita dapat menggunakan perintah :
- * [console.log(Output)]
+ * console.log(Output)
  */
 
 //1. Contoh Output String:

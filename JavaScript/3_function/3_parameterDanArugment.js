@@ -5,6 +5,7 @@
  * Argument adalah data yang dikirimkkan ke dalam function saat function dipanggil baik berupa nilai langsung ataupun berupan variable
  */
 
+//CONTOH 1
 function convertCelsiusToFahrenheit(temperature = 70){   //temerature adalah parameter
     const temperatureInFahrenheit = 9/5*temperature+32
 
@@ -20,3 +21,17 @@ function tambahTambah (a, b , c){
     const resutl = a + b + c;
     console.log(resutl);
 }
+
+//CONTOH 2
+function perkerjaan(status = "Pengangguran"){   //status adalah parameter
+    if(status === "Pengangguran"){
+        console.log("Status pekerjaan Anda adalah", status)
+    } else {
+        console.log("Status pekerjaan Anda adalah", status)
+    }
+}
+perkerjaan() //Default Argument
+perkerjaan("Software Engineer") //Argument Langsung
+
+const pekerjaan1 = "Frontend Developer" //Argument Variable
+perkerjaan(pekerjaan1)

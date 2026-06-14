@@ -1,13 +1,14 @@
 /**
  * FUNCTION
- * Function adalah blok kode yang dirancang untuk melakukan tugas tertentu dan bisa digunakan berulang kali.
+ * Function adalah blok kode yang dirancang untuk melakukan tugas tertentu dan bisa digunakan berulang kali dalam program.
  */
 /**
- * Deklarasi Function
- * 1. Function Keyworld => function
+ * Terdapat 3 bagian utaman di Function yaitu:
+ * 1. Function Keyworld => function :Keyword yang mendeklarasikan jika ini adalah sebuah function
  * 2. Identifier => namaIdentifier()
  * 3. Function Body =>{}
  */
+
 
 //Contoh sederhana Function Default
     function greetWorld(){
@@ -16,3 +17,7 @@
     function haloDunia(){
         console.log("Halo Dunia!")
     }
+    function biodata(nama, usia, pekerjaan, perusahaan){
+        console.log(`Nama Saya ${nama} berusia ${usia} tahun, Saya bekerja sebagai ${pekerjaan} di ${perusahaan}`)
+    }
+    biodata("Dio Puja Andika", 23, "Software Engineer", "Google Indonesia")

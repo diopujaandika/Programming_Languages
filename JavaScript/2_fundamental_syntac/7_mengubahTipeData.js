@@ -9,7 +9,7 @@
     //a. Mengubah ke String dengan fungsi String(variable) dan variable.toString()
         const number = 123
         const boolean = true
-        //Convert
+        //Cara Convert
         const strNumber = String(number) //String(variable)
         const strBoolean = boolean.toString() //variable.toString()
         //Output

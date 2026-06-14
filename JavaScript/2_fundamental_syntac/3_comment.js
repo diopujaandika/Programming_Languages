@@ -38,5 +38,6 @@ console.log(PI);
  */
 
 function tambah(a, b){
-    console.log(`Hasil dari ${a} + ${b} adalah ${a+b}`)}
+    console.log(`Hasil dari ${a} + ${b} adalah ${a+b}`)
+}
 tambah(3, 4)
