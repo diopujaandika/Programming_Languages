@@ -39,6 +39,8 @@
     //c. Menggunakan Array Literal => deklarasiVariable namaArray = []
         const CaptainAvangers = ['Stave Rogers', 'Captain Amarica', 1, , true]
         console.log(CaptainAvangers)
+        const spiderMan = ['Peter Parker', 18, true]
+        console.log(spiderMan)
 
 //2. Mengakses Element Array => namaArray[indeks]
         const anggotaAvenbers = ['Iron Man', 'Captain America', 'Thor', 'Hulk', 'Black Widow', 'Hawkeye']
@@ -70,7 +72,7 @@
             //pop (Menghapus Element Terakhir)
             huruf.pop()
             console.log(huruf)
-
+AS
 //5. Array Destructuring (melihat isi dari Array) 
         const introduction = ['Hello', 'Arsy']
         const [greeting, nama] = introduction

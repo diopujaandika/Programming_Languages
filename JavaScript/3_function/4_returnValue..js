@@ -49,3 +49,21 @@ function cekKelayakan(nama, umur, tahunPengalaman){
     }
 }
 console.log(cekKelayakan("Dio Puja Andika", 23, 2))
+
+//CONTOH 4
+function hitungSubTotal(harga, jumlah){
+    return harga * jumlah
+}
+function hitungDiskon(subTotal){
+    if(subTotal >= 100000){
+        return subTotal * 0.1
+    }
+}
+function hitungTotal(harga, jumlah){
+    const subTotal = hitungSubTotal(harga, jumlah)
+    const diskon = hitungDiskon(subTotal)
+
+    return subTotal - diskon
+}
+const totalBayar = hitungTotal(25000, 5)
+console.log(`Total yang harus dibayar adalah: Rp.${totalBayar}`);

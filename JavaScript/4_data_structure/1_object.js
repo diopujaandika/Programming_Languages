@@ -19,17 +19,23 @@
         email: 'diopujaandika@dicoding.com', 
         password: 12345,
         status: true,
-        'larning path': 'JavaScript',
+        'larning path': 'JavaScript',   //Membuat properti yang memiliki nama key lebih dari satu kata menggunakan single quote
     }
     console.log(user)
+    const product = {
+        name: 'Sepatu',
+        price: 23000
+    }
+    console.log(product)
 
 //2. Mengakses Properti di Object
     //a. Dot => (namaObject.namaKey)
         console.log(user.username)
+        console.log(user.email)
     //b. Square Bracket => (namaObject['nama key'])
-        console.log(user['larning path'])
+        console.log(user['larning path']) //digunakan untuk mengakses proporti yang memiliki nama key yang terdiri dari 2 kata.
     //c. Object Destructuring => deklarasiVariable {namaKey/namaKey=value} = namaObject
-        const {name, username, email, password, status} = user  //Memecah properti object ke dalam satuan yang lebih kecil (variable)
+        const {name, username, email, password, status} = user  //Memecah properti object ke dalam satuan yang lebih kecil (variable) sehingga kita bisa mendapatkan properti yang kita inginkan lebih fleksibel dan lebih ringkas.
         console.log(name, username, email, password, status)
 
 //3. Menambahkan Properti di Object
@@ -41,7 +47,8 @@
         console.log(user.username)
 
 //5. Menghapus Properti di Object => delete namaObject.namaKey
-        delete user.status
+        delete user.status          //Menggunakan Dot.
+        delete user["larning path"] //Menggunakan Square 
         console.log(user)
 
 //CONTOH
