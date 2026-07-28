@@ -72,7 +72,7 @@
             //pop (Menghapus Element Terakhir)
             huruf.pop()
             console.log(huruf)
-AS
+
 //5. Array Destructuring (melihat isi dari Array) 
         const introduction = ['Hello', 'Arsy']
         const [greeting, nama] = introduction
