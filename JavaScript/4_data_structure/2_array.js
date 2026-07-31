@@ -58,15 +58,15 @@
 
 //4. Menghapus Element dan Data Array 
         //a. Menghapus data tapi element masih ada => delete namaArray[indeks]
-            delete angka[1] 
+            delete angka[1]
             console.log(angka)
         //b. Menghapus data dan element => namaArray.splice(indeks, jumlahElement)
-            angka.splice(1, 1)  //Menghapus 1 Element
+            angka.splice(1, 1) //Menghapus 1 Element
             console.log(angka)
             angka.splice(1, 2) //Menghapus 2 Element
             console.log(angka)
         //c. Menghapus dengan Method Shift (Element Pertama) and Pop (Element Terakhir) 
-            //Sift (Menghapus Element Pertama)
+            //shift (Menghapus Element Pertama)
             huruf.shift()
             console.log(huruf)
             //pop (Menghapus Element Terakhir)
@@ -79,11 +79,12 @@
         console.log(greeting, nama)
 
 //6. Array Method
-    //a. Reverse (membalik nilai array) => namaArray.reverse()
+    //a.Reverse (membalik nilai array) => namaArray.reverse()
         let arrayReverse = ['a', 'b', 'c', 'd', 'e']
         arrayReverse.reverse()
         console.log(arrayReverse)
-    //b. Sort (mengurutkan nilai array) => namaArray.sort()
+    //b.Sort (mengurutkan nilai array) => namaArray.sort()
         let teamHero = ['Iron Man', 'Captain America', 'Thor', 'Hulk', 'Black Widow', 'Hawkeye']
         teamHero.sort()
         console.log(teamHero)
+    
