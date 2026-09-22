@@ -7,9 +7,9 @@
  *  - isMarried: bertipe data boolean, dengan bebas Anda tentukan.
  */
 
-const firstName = 'Dio'
-const lastName = 'Andika'
-const age = 22
-const isMarried = false
+const firstName = 'Dio';
+const lastName = 'Andika';
+const age = 24;
+const isMarried = false;
 
-console.log(firstName, lastName, age, isMarried)
+console.log(firstName, lastName, age, isMarried);
