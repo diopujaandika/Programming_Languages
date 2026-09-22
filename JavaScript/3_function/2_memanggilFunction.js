@@ -11,7 +11,7 @@
 
 //Contoh sederhana Function
 function greetWorld(){
-    console.log('Hello World')
+    console.log('Hello World');
 }
-//Cara memanggil function adalah dengan mendeklarasikan idenfier()
-greetWorld()
+//Cara memanggil function adalah dengan mendeklarasikan idenfier();
+greetWorld();
