@@ -28,63 +28,75 @@
 
 //1. Membuat Array 
     //a. Menggunakan object constructor => deklarasiVariable namaArray = new Array()
-        const example = new Array(5)
-        console.log(example)
+        const example = new Array(5);
+        console.log(example);
+        const example1 = new Array(10);
+        console.log(example1);
+        
     //b. Menggunakan sintaks Array.from => deklarasiVariable namaArray = Array.from()
-        const coding = Array.from('coding')
-        console.log(coding)
-        const namaHero = new Array('Tony Stark', 'Stave Rogers', 'Thor', 'Bruce Banner', 'Natasha Romanoff', 'Clint Barton')
-        const avengers = Array.from(namaHero) //Bisa diguankan untuk menyalin array lainnya.
-        console.log(avengers)
+        const coding = Array.from('coding');
+        console.log(coding);
+        const coding2 = Array.from('coding2');
+        console.log(coding2);
+        const coding3 = Array.from('coding3');
+        console.log(coding3);
+
+        const namaHero = new Array('Tony Stark', 'Stave Rogers', 'Thor', 'Bruce Banner', 'Natasha Romanoff', 'Clint Barton');
+        const avengers = Array.from(namaHero); //Bisa digunakan untuk menyalin array lainnya.
+        console.log(avengers);
+
+        const namaHeroDC = new Array('Superman', 'Batman', 'Wonderwoman', 'Aquaman', 'Flash', 'Cyberbog', 'Green Lantern');
+        const justiceLeague = Array.from(namaHeroDC);
+        console.log(justiceLeague);
+
     //c. Menggunakan Array Literal => deklarasiVariable namaArray = []
-        const CaptainAvangers = ['Stave Rogers', 'Captain Amarica', 1, , true]
-        console.log(CaptainAvangers)
-        const spiderMan = ['Peter Parker', 18, true]
-        console.log(spiderMan)
+        const CaptainAvangers = ['Stave Rogers', 'Captain Amarica', 1, , true];
+        console.log(CaptainAvangers);
+        const spiderMan = ['Peter Parker', 18, true];
+        console.log(spiderMan);
 
 //2. Mengakses Element Array => namaArray[indeks]
-        const anggotaAvenbers = ['Iron Man', 'Captain America', 'Thor', 'Hulk', 'Black Widow', 'Hawkeye']
-        console.log(anggotaAvenbers[0])
+        const anggotaAvenbers = ['Iron Man', 'Captain America', 'Thor', 'Hulk', 'Black Widow', 'Hawkeye'];
+        console.log(anggotaAvenbers[0]);
 
 //3. Manipulasi Nilai Array
     //a. Menggunakan indexing (mengubah nilai) => namaArray[indeks] = nilaiBaru
-        let angka = [1, 2, 3, 4, 5,]
-        angka[2] = 10
-        console.log(angka[2])
+        let angka = [1, 2, 3, 4, 5,];
+        angka[2] = 10;
+        console.log(angka[2]);
     //b. Menggunakan push (menambahkan nilai) => namaArray.push(nilaiTambah)
-        let huruf = ['a', 'b', 'c', 'd', 'e']
-        huruf.push('f')
-        console.log(huruf)
+        let huruf = ['a', 'b', 'c', 'd', 'e'];
+        huruf.push('f');
+        console.log(huruf);
 
 //4. Menghapus Element dan Data Array 
         //a. Menghapus data tapi element masih ada => delete namaArray[indeks]
-            delete angka[1]
-            console.log(angka)
+            delete angka[1];
+            console.log(angka);
         //b. Menghapus data dan element => namaArray.splice(indeks, jumlahElement)
-            angka.splice(1, 1) //Menghapus 1 Element
-            console.log(angka)
-            angka.splice(1, 2) //Menghapus 2 Element
-            console.log(angka)
+            angka.splice(1, 1); //Menghapus 1 Element
+            console.log(angka);
+            angka.splice(1, 2); //Menghapus 2 Element
+            console.log(angka);
         //c. Menghapus dengan Method Shift (Element Pertama) and Pop (Element Terakhir) 
             //shift (Menghapus Element Pertama)
-            huruf.shift()
-            console.log(huruf)
+            huruf.shift();
+            console.log(huruf);
             //pop (Menghapus Element Terakhir)
-            huruf.pop()
-            console.log(huruf)
+            huruf.pop();
+            console.log(huruf);
 
 //5. Array Destructuring (melihat isi dari Array) 
-        const introduction = ['Hello', 'Arsy']
-        const [greeting, nama] = introduction
-        console.log(greeting, nama)
+        const introduction = ['Hello', 'Arsy'];
+        const [greeting, nama] = introduction;
+        console.log(greeting, nama);
 
 //6. Array Method
     //a.Reverse (membalik nilai array) => namaArray.reverse()
-        let arrayReverse = ['a', 'b', 'c', 'd', 'e']
-        arrayReverse.reverse()
-        console.log(arrayReverse)
+        let arrayReverse = ['a', 'b', 'c', 'd', 'e'];
+        arrayReverse.reverse();
+        console.log(arrayReverse);
     //b.Sort (mengurutkan nilai array) => namaArray.sort()
-        let teamHero = ['Iron Man', 'Captain America', 'Thor', 'Hulk', 'Black Widow', 'Hawkeye']
-        teamHero.sort()
-        console.log(teamHero)
-    
+        let teamHero = ['Iron Man', 'Captain America', 'Thor', 'Hulk', 'Black Widow', 'Hawkeye'];
+        teamHero.sort();
+        console.log(teamHero);

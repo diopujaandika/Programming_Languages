@@ -10,7 +10,7 @@
 
     //Bagaimana dengan dua atau lebih dari satu parameter?
     function avengers(vilain, ...hero){
-        console.log('Baiik: ', hero)
+        console.log('Baik ', hero)
         console.log('Jahat: ', vilain)
     }
     avengers('Dr. Doom', 'Iron Man', 'Captain Amerika', 'Thor')

@@ -11,29 +11,29 @@
 
 //1. Membuat Map (new Map ())=> deklarasiVariable namaMap = new Map([])
     const nameTeam = new Map([
-        ['Tony Stark', 1],
-        ['Stave Rogers', 2],
-        ['Thor', 3],
-        ['Bruce Banner', 4],
-        ['Natasha Romanoff', 5],
-        ['Clint Barton', 6]
-    ])
-    console.log(nameTeam)
+        ['Tony Stark', 'Iron Man'],
+        ['Stave Rogers', 'Captain America'],
+        ['Thor Odinson', 'Thor'],
+        ['Bruce Banner', 'Hulk'],
+        ['Natasha Romanoff', 'Black Widow'],
+        ['Clint Barton', 'Hawkeye']
+    ]);
+    console.log(nameTeam);
 
 //2. Menyimpan Nilai di Map (set) => namaMap.set(namaKey, nilaiValue)
     //a. String sebagai Key
-        const namaHero = new Map()
-        namaHero.set('Iron Man', 3000)
-        console.log(namaHero)
+        const namaHero = new Map();
+        namaHero.set('Iron Man', 3000);
+        console.log(namaHero);
     //b. Number sebagai Key
-        const namaVilain = new Map()
-        namaVilain.set(10000, 'Dr. Doom')
-        console.log(namaVilain)
+        const namaVilain = new Map();
+        namaVilain.set(10000, 'Dr. Doom');
+        console.log(namaVilain);
 
 //3. Mengakses Nilai di Map (get) => namaMap.get(namaKey)
-    console.log(nameTeam.get('Tony Stark'))
-    console.log(namaVilain.get(10000))
+    console.log(nameTeam.get('Tony Stark'));
+    console.log(namaVilain.get(10000));
 
 //4. Menghapus Nilai di Map (delete) => namaMap.delete(namaKey)
-    nameTeam.delete('Clint Barton')
-    console.log(nameTeam)
+    nameTeam.delete('Clint Barton');
+    console.log(nameTeam);
