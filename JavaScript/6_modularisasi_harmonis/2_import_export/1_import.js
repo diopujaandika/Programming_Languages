@@ -7,8 +7,11 @@
  */
 
     //1. Import menggunakan defult untuk function/method/variable yang namanya tidak harus sama dengan function/method/variable aslinya
-        import result from './2_export.js'
-        result()
+        import result from './2_export.js'  //Kita bisa berikan nama apa saja
+        result();
+        //Atau umumnya 
+        import myFunction from '../1_modularisasi/anotherfile.mjs'; //Menyesuaikan dengan nama file export
+        myFunction();
 
     //2. Import berikut membutuhkan nama function/method/variable yang spesifik dengan nama aslinya
         import {myFunction2} from './2_export.js'

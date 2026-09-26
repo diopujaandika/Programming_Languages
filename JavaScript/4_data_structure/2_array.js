@@ -35,7 +35,7 @@
         
     //b. Menggunakan sintaks Array.from => deklarasiVariable namaArray = Array.from()
         const coding = Array.from('coding');
-        console.log(coding);
+        console.log('Isi dari array 1 ini adalah ', coding);
         const coding2 = Array.from('coding2');
         console.log(coding2);
         const coding3 = Array.from('coding3');
@@ -53,17 +53,18 @@
         const CaptainAvangers = ['Stave Rogers', 'Captain Amarica', 1, , true];
         console.log(CaptainAvangers);
         const spiderMan = ['Peter Parker', 18, true];
-        console.log(spiderMan);
+        console.log('Siapa itu spiderman', spiderMan);
 
 //2. Mengakses Element Array => namaArray[indeks]
         const anggotaAvenbers = ['Iron Man', 'Captain America', 'Thor', 'Hulk', 'Black Widow', 'Hawkeye'];
-        console.log(anggotaAvenbers[0]);
+        console.log('Anggota avenger pertama adalah', anggotaAvenbers[0]);
 
 //3. Manipulasi Nilai Array
     //a. Menggunakan indexing (mengubah nilai) => namaArray[indeks] = nilaiBaru
         let angka = [1, 2, 3, 4, 5,];
         angka[2] = 10;
         console.log(angka[2]);
+        console.log(angka);
     //b. Menggunakan push (menambahkan nilai) => namaArray.push(nilaiTambah)
         let huruf = ['a', 'b', 'c', 'd', 'e'];
         huruf.push('f');

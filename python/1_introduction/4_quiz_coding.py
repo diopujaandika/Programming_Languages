@@ -8,6 +8,3 @@ TODO:
 
 greeting = "Saya mulai belajar Python!"
 print(greeting)
-
-name = "Dio Puja Andika"
-print(name + greeting)

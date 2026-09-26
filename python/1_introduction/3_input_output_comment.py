@@ -1,31 +1,28 @@
-#INPUT => memungkinkan pengguna untuk memberikan masukan, Sintak: input()
-name = input('Masukkan nama Anda: ')    #Input()
-age = input('Masukkan usia Anda: ')
+#INPUT
 """
-Output:
-Masukkan nama Anda: Perseus Evans
+Input memungkinkan pengguna memberikan masukkan.
 """
-
-#Output => menampilkan output ke layar komputer, Sintak: print(name)
-print(name) #Output()
-print(age)
+name = input('Masukan nama Anda: ')
 """
-Output:
-Perseus Evans
+Output: Masukkan nama Anda: 
 """
 
-#Comment atau komentar merupakan barisan teks yang akan diabaikan oleh python ketika program dijalankan.
-
-#Inline Commnet => Komentar satu baris. Sintak #Comment
-#Variable ini menyimpan nama 'Perseus Evans'
-name = 'Perseus Evans'
-
-#Block Commnet => Satu block kode dengan tujuan menjelaskan kode komplleks atau membuat dokumentasi dari sebuah fungsi atau modul. Sintak: """Comment""" atau '''Comment'''
+#OUTPUT
 """
-Ini adalah Block Comment,
-Teks ini akan diabaikan oleh Python.
+Output digunakan untuk menampilkan sesuatu.
 """
-'''
-Ini adalah Block Comment,
-Teks ini akan diabaikan oleh Python,
-'''
+print(name)
+
+#COMMENT
+"""
+Comment adalah baris teks yang akan diabaikan ketika program dijalankan.
+Comment dibagi menjadi dua:
+1. Inline Comment, comment yang terdiri dari satu baris. Sintaknya menggunakan simbol (#)
+2. Block Comment, comment yang terdiri dari banyak baris. Sintaknya menggunakan simbol tiga double coute atau tiga singgle quote
+"""
+#Ini Inline Commnet
+"""
+Ini Block Comment 1
+Ini Block Comment 2
+Ini Block Comment 3
+"""

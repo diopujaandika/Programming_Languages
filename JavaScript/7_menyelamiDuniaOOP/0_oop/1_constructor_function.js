@@ -10,7 +10,7 @@ function Person(name, age) {
     this.age = age; //Properti
 }
 
-//Method
+//Method : Function di dalam object
 Person.prototype.eat = function() { //Menggunakan prototype
     console.log(`${this.name} is eating!`);
 }
