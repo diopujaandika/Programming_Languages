@@ -6,7 +6,7 @@
 /*
     Overriding adalah cara untuk membuat implementasi yang berbeda di SubClass untuk menthod yang diturunkan dari SuperClass.
     Overriding dapat diterapkan untuk membuat method yang lebih spesifik di SubClass.
-    Overridng juga dapat diterapkan untuk menambahkan property baru SubClass.
+    Overriding juga dapat diterapkan untuk menambahkan property baru SubClass.
     Overriding dapat diterapkan pada constructor maupun pada method.
 */
 
