@@ -6,29 +6,34 @@
  * 4 Cara membuat varible pada JS
  *      1. automatically => Otomatis akan mengetahui nilainya
  *      2. var => keyword variable pada js yang tidak bisa diinisialisasi ulang dan boleh dikosongkan.
- *      3. let => masih bisa diinisialisasi ulang nilainya dan boleh dikosongkan
+ *      3. let => masih bisa diinisialisasi ulang nilainya dan boleh dikosongkan.
  *      4. const => keyword variable pada js yang tidak bisa diinisialisasi ulang nilainya dan tidak boleh dikosongkan.
  * 
- * NOTE: Umumnya pembuatan variable dalam JS menggunakan sintaksis const dan let
+ * NOTE: Umumnya pembuatan variable dalam JS menggunakan sintaksis const dan let.
  */
 
 //Contoh automatically
-    autoVaribale = 22           
-    console.log(autoVaribale, 'adalah', typeof(autoVaribale))      
+    autoVaribale = 22;
+    console.log(autoVaribale, 'adalah bertipe', typeof(autoVaribale));         
 
 //Contoh var 
-    var varVariable
-    varVariable = 'Dio'           
-    console.log(varVariable, 'adalah', typeof(varVariable)) 
+    var varVariable;
+    varVariable = 'Dio';
+    var varVariable = 'Puja';     
+    console.log(varVariable, 'adalah', typeof(varVariable));
+    //Akibat hal ini dimana nilainya bisa diubah dan variablenya terlalu flexible penggunaan var sudah tidak dianjurkan lagi, kecuali digunkan untuk maintenance kode lama.
 
 //Contoh let
-    let letVariable = true
+    let letVariable = true;
+    letVariable = false;
+    // let letVariable = = false; //Ini akan error karena penggunaan let dalam scope yang sama tidak bisa.
     console.log(letVariable, 'adalah', typeof(letVariable))
 
 //Contoh const
-    const constVariableName = "Dio Puja Andika"
-    const constVariableAge = 22
-    console.log(`Nama Saya adalah ${constVariableName}, usia Saya saat ini adalah ${constVariableAge} tahun!`)
+    const constVariableName = "Dio Puja Andika";
+    // constVariableName = 'Dicoding Indonesia'; //Error, karena nilai dari const harus konstan dan tidak dapat diubah.
+    const constVariableAge = 22;
+    console.log(`Nama Saya adalah ${constVariableName}, usia Saya saat ini adalah ${constVariableAge} tahun!`);
 
 //Contohh 1
 const id = 123;

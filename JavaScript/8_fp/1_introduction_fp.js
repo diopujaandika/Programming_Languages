@@ -4,10 +4,10 @@
 
     Dalam FP, fungsi adalah elemen utama yang digunakan untuk mecahkan kode dan membangun keselurahan program.
 
-    Dengan menerapkan konsep-konsep dalam FP, kita dapat membangun aplikasi menggunakan kode yang deklaratif (lebih simpel, tagas, dan terprediksi)
+    Dengan menerapkan konsep-konsep dalam FP, kita dapat membangun aplikasi menggunakan kode yang deklaratif (lebih simpel, tagas, dan terprediksi).
 */
 
-//Contoh Kode Imperatif
+//Contoh Kode Imperatif (Instruksi yang bersifat langkah demi langkah)
 const name = ['Harry', 'Rony', 'Jeff', 'Thomas'];
 const newNameWithExcMark = [];
 
@@ -19,6 +19,6 @@ console.log(newNameWithExcMark);
 
 //Contoh Kode Deklaratif
 const nama = ['Heri', 'Roni', 'Jepp', 'Tomas'];
-const newNamaWithExcMark = nama.map((nama) => `${nama}!`)
+const newNamaWithExcMark = nama.map((nama) => `${nama}!`)   //Fungsi .map() merupakan salah satu implementasi dari konsep-konsep dalam FP
 
 console.log(newNamaWithExcMark)

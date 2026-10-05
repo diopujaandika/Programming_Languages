@@ -1,19 +1,24 @@
 /**
  * KONVERSI TIPE DATA
- * Konversi dapat dilakukan dengan 2 cara 
- * 1. Konversi Eksplisit
- * 2. Konversi Implisit
+ * Dalam JS kita dapat mengkonversi tipe data yang kita miliki.
+ * Terdapat 2 cara untuk mengkonversi tipe data dalam JS:
+ * 1. Konversi Eksplisit => Konversi yang dilakukan langsung oleh developer
+ * 2. Konversi Implisit => Konversi yang dilakukan oleh interpreter
  */
 
 //1. Konversi Eksplisit
     //a. Mengubah ke String dengan fungsi String(NamaVariable); dan namaVariable.toString();
         const number = 123;
         const boolean = true;
+        const float = 32.1;
         //Cara Convert
         const strNumber = String(number); //String(variable);
         const strBoolean = boolean.toString(); //variable.toString();
+
+        const strFloat = String(float);
+        const toStrFloat = float.toString();
         //Output
-        console.log(strNumber, strBoolean);
+        console.log(strNumber, strBoolean, strFloat, toStrFloat);
 
     //b. Mengubah ke Number dengan Number(namaVariable);
         const strNumber2 = '123';

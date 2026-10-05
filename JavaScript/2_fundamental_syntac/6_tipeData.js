@@ -1,10 +1,10 @@
 /*
-    Tipe data pada JavaScript ada:
-    1. String       => Tipe data yang expressionnya berupa Teks
-    2. Number       => Tipe data yang expressionnya berupa Angka
-    3. Boolean      => Iipe data yang expressionnya berupa kondisi Benar dan Salah
-    4. Null         => Tipe data yang expressionnya sengaja bernilai NULL (dikosongkan)
-    5. Undefined    => Tipe data yang expressionnya belum dideklarasikan
+    Tipe data primitf pada JavaScript ada:
+    1. String       => Tipe data yang expressionnya berupa Teks.
+    2. Number       => Tipe data yang expressionnya berupa Angka.
+    3. Boolean      => Iipe data yang expressionnya berupa kondisi Benar dan Salah.
+    4. Null         => Tipe data yang expressionnya sengaja bernilai NULL (dikosongkan).
+    5. Undefined    => Tipe data yang expressionnya belum dideklarasikan.
  */
 
 //String => Tipe data Teks
@@ -13,8 +13,8 @@
     const stringSingle = 'Dio Puja Andika';
     
     //typeOf(variable) => Keyword yang digunakan untuk melihat type data
-    console.log(typeof(myString));
-    console.log(typeof(Stringku));
+    console.log(myString, 'beritpe data: ', typeof(myString));
+    console.log(stringSingle, 'bertipe data: ', typeof(Stringku));
 
     console.log('Ini merupakan contoh pertama string di JavaScript dengan single quote', myString); //String dengan Single Quote
     console.log('Ini merupakan contoh kedua string dari JavaScript dengan single quote', stringSingle); //String dengan Single Quote
@@ -41,6 +41,7 @@
     //Infinty => dihasilkan ketika kita melakukan operasi aritmatika yang tidak terdefinisikan atau tidak bisa di oprasikan, seperti membagi sebuah nilai dengan nol.
     const resultInfinity = 50/0; //Infinity 
     console.log(resultInfinity);
+    
     //NaN (Not a Number ) => dihasilkan ketika nilai non-numerik diubah ke tipe data number.
     const resultNaN = Number('Dicoding'); //NaN
     console.log(resultNaN);

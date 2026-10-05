@@ -1,6 +1,7 @@
 /**
  * EXPRESSION
- * Expression adalah segala sesuatu yang menghasilkan hasil/nilai
+ * Expression merupakan bagian dari suatu statement.
+ * Expression adalah segala sesuatu yang menghasilkan hasil/nilai.
  * Ciri-ciri
  * 1. Punya hasil/nilai
  * 2. Bisa diinputkan kedalam statement
