@@ -1,5 +1,7 @@
 // GETTER & SETTER
 /*
+    Untuk mencegah pengguna mengubah nilai property 
+    
     GETTER
     Getter terdiri dari method get.
     Get adalah cara untuk mendapatkan nilai dari property.

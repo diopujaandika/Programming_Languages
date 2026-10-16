@@ -5,21 +5,32 @@
     Constructor function adalah cara yang digunakan untuk membuat object dan class sebelum adanya ES6.
 */
 
-function Person(name, age) {
-    this.name = name; //Properti
-    this.age = age; //Properti
-}
+//CONTOH 1.1
+    function Person(name, age) {
+        this.name = name; //Properti
+        this.age = age; //Properti
+    }
 
-//Method : Function di dalam object
-Person.prototype.eat = function() { //Menggunakan prototype
-    console.log(`${this.name} is eating!`);
-}
+    //Method : Function di dalam object
+    Person.prototype.eat = function() { //Menggunakan prototype
+        console.log(`${this.name} is eating!`);
+    }
 
-const person1 = new Person('Alice', 30);
-const person2 = new Person('Bob', 25);
+    const person1 = new Person('Alice', 30);
+    const person2 = new Person('Bob', 25);
 
-console.log(person1.name);
-console.log(person2.name);
+    console.log(person1.name);
+    console.log(person2.name);
 
-person1.eat();
-person2.eat();
+    person1.eat();
+    person2.eat();
+
+//CONTOH 1.2
+    function User(nama, email) {
+        this.nama = nama;
+        this.email = email;
+    }
+    User.prototype.verification = function() {
+
+    }
+

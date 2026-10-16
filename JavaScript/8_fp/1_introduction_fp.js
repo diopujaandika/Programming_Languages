@@ -21,4 +21,5 @@ console.log(newNameWithExcMark);
 const nama = ['Heri', 'Roni', 'Jepp', 'Tomas'];
 const newNamaWithExcMark = nama.map((nama) => `${nama}!`)   //Fungsi .map() merupakan salah satu implementasi dari konsep-konsep dalam FP
 
-console.log(newNamaWithExcMark)
+console.log(newNamaWithExcMark);
+//Tantangan terberat adalam FP adalah menghilangkan kebiasaan 

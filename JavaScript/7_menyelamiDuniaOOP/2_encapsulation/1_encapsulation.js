@@ -1,10 +1,11 @@
 /**
  * ENCAPSULATION
  * Encapsulation adalah proses untuk membungkus data di suatu wadah yang disebut dengan class. 
+ * Menyembunyikan data adalah bagian kunci dari encaptulation.
  * Dengan encapsulation kita dapat menyembunyikan data, sebab desain oop yang baik itu hanya menampilkan data yang dibutuhkan oleh object lain sehingga membuat data yang ada di class sebagai private.
  */
 
-// class itu mendefinisikan 2 har yaitu property dan method. Sehingga kita harus mengatur akses dari keduanya. Secara umum, property
+// class itu mendefinisikan 2 hal yaitu property dan method. Sehingga kita harus mengatur akses dari keduanya. Secara umum, property
 
 class CoffeMachine {
     constructor(waterAmount) {

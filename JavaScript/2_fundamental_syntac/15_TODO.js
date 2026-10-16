@@ -23,7 +23,7 @@ const currency = "IDR";
 let value = 10000;
 
 // TODO: tambahkan nilai di dalam variabel `value` sebesar 5000.
-value += 5000;
+value = value + 5000;
 
 /**
  * TODO: buatlah variabel (konstan) bernama `money`,

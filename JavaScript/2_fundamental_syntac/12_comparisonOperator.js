@@ -1,6 +1,6 @@
 /**
  * COMPARASION OPERATOR
- * Ccomparasion operator adalah operator yang digunakan untuk membandingkan dua nilai dan mengembalikan nilai boolean sebagai hasil perbandingan.
+ * Ccomparasion operator atau operator perbandingan adalah operator yang digunakan untuk membandingkan dua nilai dan mengembalikan nilai boolean sebagai hasil perbandingan.
  */
 
 let a = 5;

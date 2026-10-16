@@ -1,7 +1,3 @@
-//MODULE
-/**
- * 
- */
 
 //Cara Export Variable
     export const name = 'Dicoding';
