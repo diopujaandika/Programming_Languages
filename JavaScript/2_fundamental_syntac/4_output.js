@@ -19,9 +19,3 @@
     console.log(true); //True Value
     console.log(false); //False Value
 
-/**
- * Lantas bagaimana cara untuk membuat lebih dari satu tipe data dalam sebuah output?
- * Jawabannya kita bisa memanfaatkan penggunaan variable.
- * Tapi Apa itu Variable?
- */
-

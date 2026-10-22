@@ -8,7 +8,7 @@ var greeting = "Hello World!";
 var name = "Dio Puja Andika";
 var year = 2002;
 console.log(greeting);
-console.log(name)
+console.log(name);
 console.log(`Welcome to the ${greeting}. Nice to meet you Mr. ${name}`);
 console.log(`Saya lahir pada tahun ${year}.`);
 

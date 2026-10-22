@@ -4,7 +4,7 @@
  */
 
 //Contoh
-let a = '17';
-let b = 'Agustus';
-const merged = a + b;
+let x = '17';
+let y = 'Agustus';
+const merged = x + y;
 console.log(merged);

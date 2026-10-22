@@ -12,7 +12,3 @@
 
     //Ternary Operator adalah operator yang memiliki 3 Operand
     (age < 18) ? 'You are too young!' : 'Welcome onboard!';
-
-
-
-

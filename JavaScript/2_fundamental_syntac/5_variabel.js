@@ -12,24 +12,25 @@
  * NOTE: Umumnya pembuatan variable dalam JS menggunakan sintaksis const dan let.
  */
 
-//Contoh automatically
-    autoVaribale = 22;
-    console.log(autoVaribale, 'adalah bertipe', typeof(autoVaribale));         
+//Automatically: otomatis mengetahui value dari variable.
+    autoVarible = 23;
+    console.log(autoVarible, 'adalah tipe data', typeof(autoVarible));      
 
-//Contoh var 
+//var: keyword variable pada js yang boleh di deklarasi ulang dalam scope yang sama dan value dapat di isi, di kosongkan, atau diinisialisasi ulang.
     var varVariable;
     varVariable = 'Dio';
-    var varVariable = 'Puja';     
+    var varVariable = 'Puja';
+    var varVariable = 'Andika';
     console.log(varVariable, 'adalah', typeof(varVariable));
-    //Akibat hal ini dimana nilainya bisa diubah dan variablenya terlalu flexible penggunaan var sudah tidak dianjurkan lagi, kecuali digunkan untuk maintenance kode lama.
+    //Akibat hal ini dimana nilainya bisa diubah dan variablenya terlalu flexible penggunaan var sudah tidak dianjurkan lagi, kecuali digunakan untuk maintenance kode lama.
 
-//Contoh let
+//let: keyword variable pada js yang tidak bisa dideklarasikan ulang dalam scope yang sama dengan value boleh di isi, dikosongkan, ataupun diinisialisasi ulang.
     let letVariable = true;
     letVariable = false;
-    // let letVariable = = false; //Ini akan error karena penggunaan let dalam scope yang sama tidak bisa.
+    // let letVariable = false; //Ini akan error karena penggunaan let dalam scope yang sama tidak bisa.
     console.log(letVariable, 'adalah', typeof(letVariable))
 
-//Contoh const
+//const: keyword variable pada js yang tidak boleh dideklarasikan dan value tidak boleh dikosongkan serta diinisalisasi ulang.
     const constVariableName = "Dio Puja Andika";
     // constVariableName = 'Dicoding Indonesia'; //Error, karena nilai dari const harus konstan dan tidak dapat diubah.
     const constVariableAge = 22;
@@ -37,7 +38,7 @@
 
 //Contohh 1
 const id = 123;
-let username = 'Dicoding'
+var username = 'Dicoding';
 
 console.log(id); //Output: 123
 console.log(username); //Output: Dicoding
@@ -49,7 +50,7 @@ console.log('Setelah diubah', username); //Output: Setelah diubah: Dicoding Acad
 //ATURAN PENAMAAN VARIABLE
 //1. Tidak boleh memberikan nama yang sama dalam cakupan yang sama
     //Company data
-    const name = "Dicoding"
+    const name = "Dicoding";
     const legal = 'LLC'
 
     //Employee data

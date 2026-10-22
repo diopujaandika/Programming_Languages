@@ -1,21 +1,22 @@
 /**
- * COMPARASION OPERATOR
- * Ccomparasion operator atau operator perbandingan adalah operator yang digunakan untuk membandingkan dua nilai dan mengembalikan nilai boolean sebagai hasil perbandingan.
+ * COMPARISON OPERATOR
+ * Comparison operator atau operator perbandingan adalah operator yang digunakan untuk membandingkan dua nilai dan mengembalikan nilai boolean sebagai hasil perbandingan.
  */
 
-let a = 5;
-let b = '5';
+let a = 10;  //Tipe Number
+let b = '10';    //Tipe String
+
 //Comparison Operator
     //1. Sama [==] (Nilai Sama, Tipe Data Diabaikan)
     console.log(a==b); //True
 
-    //2. Identik [===] (Nilai Sama, Tida Data Sama)
+    //2. Sama Identik [===] (Nilai Sama, Tida Data Sama)
     console.log(a===b); //False
 
     //3. Tidak Sama [!=] (Nilai dan Tipe Data Diabaikan, Jika True manjadi False dan Sebaliknya)
     console.log(a!=b); //False
 
-    //4. Tidak Identik (!==) (Nilai dan Tipe Data Sama, Jika True manjadi False dan Sebaliknya)
+    //4. Tidak Sama Identik (!==) (Nilai dan Tipe Data Sama, Jika True manjadi False dan Sebaliknya)
     console.log(a!==b); //True
 
     //5. Lebih Dari [>] (Jika Operan 1 lebih besar dari Operan 2 maka True)

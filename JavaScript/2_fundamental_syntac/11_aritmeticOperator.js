@@ -3,7 +3,7 @@
  * Arithmetic Operator adalah operator yang digunakan untuk proses aritmatika.
  */
 
-let angka1 = 10;
+let angka1 = 9;
 let angka2 = 2;
 
     //Penjumlahan

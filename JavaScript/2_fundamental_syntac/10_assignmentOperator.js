@@ -4,8 +4,8 @@
  */
 
 //Assignment Operator (=)
-const name = 'Dio Puja Andika'
-let location = 'Semarang'
-location = 'Indonesia'
+const name = 'Dio Puja Andika';
+let location = 'Semarang';
+location = 'Indonesia';
 
-console.log(name, location)
+console.log('Hello, my name is', name, 'I am from', location);

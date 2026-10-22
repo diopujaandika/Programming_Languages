@@ -1,35 +1,16 @@
 /**
+ * STATEMENT
+ * Dalam pemrograman, suatu instruksi yang kita buat itu disebut dengan statement.
  * Statement adalah instruksi yang akan dieksekusi oleh komputer.
- * Jadi dalam pemrograman suatu instruksi itu disebut dengan statement.
- * Sebuah statement biasanya diakhri dengan sebuah tanda semicolon (;).
+ * Dan tentu ketika membuat program kita harus mengikuti aturan atau sintak dari bahasa pemrograman yang digunakan.
+ * Dalam JS, statement biasanya diakhiri dengan sebuah tanda semicolon (;).
  */
 
-//Contoh 1 : Membuat statement dengan 2 buah variable yaitu, age dan name yang diberi value 10 dan dicoding
-const age = 10; //Statement 1
-const name = 'dicoding'; //Statement 2
-console.log(`Aku ${name}, umurku ${age} tahun.`); //Statement 3
-//Contoh 1.1
-const usia = 23; 
-const nama = 'Dio Puja Andika';
-console.log(`Nama Saya adalah ${nama}, usia Saya saat ini adalah ${usia} tahun.`);
-//Contoh 1.2
-const usiaSekarang = 24;
-const nameSekarang = 'Dio Puja Andika';
-console.log(`Aku ${nameSekarang}, umurku ${usiaSekarang} tahun.`);
-
-//Contoh 2 : Dalam JS kita bisa membuat beberapa statement dalam satu line dengan memanfaatkan tanda (;) sebagai tanda berakhirnya statement.
-const statement1 = "Ini Statement 1"; const statement2 = "Ini statement 2"; const statement3 = "Ini Statement 3"; console.log(statement1, statement2, statement3);
-
-//Contoh 5: 
-const namaKarakter = 'Djocean';
-const jenisKarakter = 'Decaelo';
-const levelMax = 100;
-const levelMin = 1;
-//Operator assignment
-console.log(namaKarakter+levelMax); 
-console.log(levelMax+levelMin);
-
-//Contoh 5:
-const usiaDio = 23;
-const namaDio = "Dio Puja Andika";
-console.log(`Hai, Saya ${namaDio}, Saya berusia ${usiaDio}`);
+//Contoh 1: Membuat statement dengan 2 buah variable yaitu, age dan name yang diberi value 24 dan nama Dio Puja Andika
+    const age = 23; //Statement 1: membuat variable age dengan value 10.
+    const name = 'Dio Puja Andika'; //Statement 2: membuat variable name dengan value Dio puja Andika.
+    const country = 'Indonesian'; //Statment 3: membuat variable country dengan value Indonesian.
+    console.log(`Hello, My name's ${name}. I'm ${age} years old. I'm from ${country}.`); //Statement 4: menampilkan age, name, dan country.
+    
+//Contoh 2: Biasanya statement dalam JS diakhir dengan tanda semicolon (;)sehingga Dalam JS kita bisa membuat beberapa statement dalam satu line dengan memanfaatkan tanda semicolon (;) sebagai tanda berakhirnya statement. 
+    const statement1 = "This is Statement 1."; const statement2 = "This is statement 2."; const statement3 = "This is Statement 3."; console.log(statement1, statement2, statement3);

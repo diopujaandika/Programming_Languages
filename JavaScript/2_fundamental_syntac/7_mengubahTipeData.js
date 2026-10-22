@@ -2,8 +2,8 @@
  * KONVERSI TIPE DATA
  * Dalam JS kita dapat mengkonversi tipe data yang kita miliki.
  * Terdapat 2 cara untuk mengkonversi tipe data dalam JS:
- * 1. Konversi Eksplisit => Konversi yang dilakukan langsung oleh developer
- * 2. Konversi Implisit => Konversi yang dilakukan oleh interpreter
+ * 1. Konversi Eksplisit => Konversi yang dilakukan langsung oleh developer.
+ * 2. Konversi Implisit => Konversi yang dilakukan oleh interpreter.
  */
 
 //1. Konversi Eksplisit
