@@ -49,34 +49,34 @@ console.log("Luas bangunan tersebut adalah", luas)
 
 //CONTOH 4
 function cekUmur(umur){
-    return umur > 20
+    return umur > 20;
 }
 function cekPengalaman(tahunPengalaman){
-    return tahunPengalaman > 1
+    return tahunPengalaman > 1;
 }
 function cekKelayakan(nama, umur, tahunPengalaman){
     if (cekUmur(umur) && cekPengalaman(tahunPengalaman)){
-        return `${nama} memenuhi syarat untuk melamar pekerjaan. Karena usia ${nama} masih ${umur} tahun dan pengalaman kerja ${tahunPengalaman} tahun.`
+        return `${nama} memenuhi syarat untuk melamar pekerjaan. Karena usia ${nama} masih ${umur} tahun dan pengalaman kerja ${tahunPengalaman} tahun.`;
     } else {
-        return `${nama} tidak memenuhi syarat kelayakan untuk melamar pekerjaan. Karena usia ${nama} masih ${umur} tahun dan pengalaman kerja ${tahunPengalaman} tahun.`
+        return `${nama} tidak memenuhi syarat kelayakan untuk melamar pekerjaan. Karena usia ${nama} masih ${umur} tahun dan pengalaman kerja ${tahunPengalaman} tahun.`;
     }
 }
-console.log(cekKelayakan("Dio Puja Andika", 23, 2))
+console.log(cekKelayakan("Dio Puja Andika", 23, 2));
 
 //CONTOH 5
 function hitungSubTotal(harga, jumlah){
-    return harga * jumlah
+    return harga * jumlah;
 }
 function hitungDiskon(subTotal){
     if(subTotal >= 100000){
-        return subTotal * 0.1
+        return subTotal * 0.1;
     }
 }
 function hitungTotal(harga, jumlah){
-    const subTotal = hitungSubTotal(harga, jumlah)
-    const diskon = hitungDiskon(subTotal)
+    const subTotal = hitungSubTotal(harga, jumlah);
+    const diskon = hitungDiskon(subTotal);
 
-    return subTotal - diskon
+    return subTotal - diskon;
 }
 const totalBayar = hitungTotal(25000, 5)
 console.log(`Total yang harus dibayar adalah: Rp.${totalBayar}`);

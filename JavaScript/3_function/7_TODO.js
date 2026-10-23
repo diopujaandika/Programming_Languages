@@ -52,9 +52,12 @@ console.log(power(7, 9))
  * 5. Buatlah variabel bernama `indra` yang menampung nilai dari hasil pemanggilan fungsi `hello`
  *    yang diberikan argumen name = 'Indra' tanpa memberikan nilai origin.
  */
+    const hello = (name, origin = 'Bandung') => {
+        return `Halo! Nama saya ${name}. Saya tinggal di ${origin}.`;
+    }
 
-const hello = (name, origin = "Bandung") => {
-    return `Halo! Nama saya ${name}. Saya tinggal di ${origin}.`;
-}
-const ramat = hello("Rahmat", "Semarang");
-const indra = hello("Indra" );
+    const rahmat = hello('Rahmat', 'Semarang');
+    const indra = hello('Indra')
+
+    console.log(rahmat);
+    console.log(indra);

@@ -10,8 +10,8 @@
  */
 
 //Contoh sederhana Function
-function greetWorld(){
+function helloWorld(){
     console.log('Hello World');
 }
 //Cara memanggil function adalah dengan mendeklarasikan idenfier();
-greetWorld();
+helloWorld();

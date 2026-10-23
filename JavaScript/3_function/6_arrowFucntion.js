@@ -5,13 +5,13 @@
 
 let temperatureInFahrenheit = null
 
-//Deklarasi function dengan regular function
+//Deklarasi function dengan regular expression function
 const convertCelsiusToFahrenheitUsingRegularFunction = function(temperature) {
     const result = 9/5 * temperature + 32
     return result 
 }
 temperatureInFahrenheit = convertCelsiusToFahrenheitUsingRegularFunction(90)
-console.log(temperatureInFahrenheit)
+console.log(temperatureInFahrenheit);
 
 //Deklarasi function dengan arrow function
 const convertCelsiusToFahrenheitUsingArrowFunction = (temperature) => {

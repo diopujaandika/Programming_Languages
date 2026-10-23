@@ -9,21 +9,21 @@
 
 //Contoh
     const greetWorld = function(message){
-        console.log('Hello World')
+        console.log('Hello World');
     }
-    greetWorld()
+    greetWorld();
 
     const convertCelsiusToFahrenheit = function(temperature){
-        const result = 9/5*temperature+32
-        return result
+        const result = 9/5*temperature+32;
+        return result;
     }
 
-    const temperatureInFahrenheit = convertCelsiusToFahrenheit(90)
-    console.log(temperatureInFahrenheit)
+    const temperatureInFahrenheit = convertCelsiusToFahrenheit(90);
+    console.log(temperatureInFahrenheit);
 
 //Contoh menjadi First-Class Citizen
     const multiply = function(a, b){
-        return a * b
+        return a * b;
     }
 
     const calculate = function (operation, numA, numB){

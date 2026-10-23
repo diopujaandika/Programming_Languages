@@ -40,3 +40,36 @@ perkerjaan("Software Engineer"); //Argument Langsung
 
 const pekerjaan1 = "Frontend Developer"; //Argument Variable
 perkerjaan(pekerjaan1);
+
+function Bank(nama = 'Tanpa Nama', gender, saldo = 0){
+    const perusahaan = 'Puja Bank';
+    const minumumSaldo = 500000;
+
+    // Menentukan sapaan berdasarkan gender
+    let sapaan;
+
+    if (gender === 'Laki-laki') {
+        sapaan = 'Tn.';
+    } else if (gender === 'Perempuan'){
+        sapaan = 'Ny.';
+    } else {
+        console.log(`${nama}, mohon maaf, gender Anda tidak teridentifikasi.`);
+        console.log('Semoga hari Anda menyenangkan!');
+        return;
+    }
+
+    //Menampilkan informasi nasabah
+    console.log(`Hai, ${sapaan} ${nama}. Selamat datang di ${perusahaan}!`);
+    console.log(`Sisa saldo Anda: Rp.${saldo.toLocaleString('id-ID')}`);
+ 
+    //Memeriksa kecukupan saldo
+    if (saldo >= minumumSaldo) {
+        console.log(`Saldo ${sapaan} ${nama} cukup untuk melakukan transaksi!`);
+    } else {
+        console.log(`Mohon maaf ${sapaan} ${nama}, Saldo Anda tidak cukup!`);
+    }
+    console.log('Semoga hari Anda menyenangkan!');
+}
+
+//Contoh pemanggilan function Bank
+Bank('Dio Puja Andika', 'Laki-laki', 20000);
