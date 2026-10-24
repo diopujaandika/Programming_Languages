@@ -4,7 +4,7 @@
  */
 
 //1. Membuat Set => deklarasiVariable namaSet = new Set()
-    const angkaSet = new Set([1, 2, 3])
+    const angkaSet = new Set([1, 2, 3, 'dst..']);
     console.log(angkaSet)
 
 //2. Menyimpan Nilai di Set => namaSet.add()

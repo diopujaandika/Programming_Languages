@@ -8,7 +8,7 @@
     const objectDua = {lastName: 'Indonesia', address: 'Jln. Batik Kumeli No. 50', years: 10}
     //Mempermudah mengabungkan dua atau lebih object
     const objectMenyebar = {...objectSatu, ...objectDua}
-    console.log(objectMenyebar)
+    console.log('Object ditambahkan:', objectMenyebar)
     //Mempermudah menyalin suatu object
     const objectMenyalin = {...objectMenyebar}
     console.log(objectMenyalin)
@@ -18,7 +18,7 @@
     const arrayDua = ['Indonesia', 'Jln. Batik Kumeli No. 50', 11]
     //Mempermudah mengabungkan dua atau lebih array
     const arrayMenyebar = [...arraySatu, ...arrayDua]
-    console.log(arrayMenyebar)
+    console.log('Array ditambahkan:', arrayMenyebar)
     //Mempermudah menyalin suatu array
     const arrayMenyalin = [...arrayMenyebar]
     console.log(arrayMenyalin)

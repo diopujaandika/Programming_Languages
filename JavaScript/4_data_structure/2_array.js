@@ -5,7 +5,7 @@
  * 2. Array bisa menambahkan nilai diantara data yang sudah ada
  * 3. Data yang ada di array dapat diakses menggunakan pola indeks
  * 4. Nilai yang disimpan di dalam array disebut dengan element.
- * 5. Array bisa menampuang segala jenis data termasuk object.
+ * 5. Array bisa menampung segala jenis data termasuk object.
  * 
  * SINTAKSIS ARRAY
  * 1. Membuat Array
@@ -29,9 +29,11 @@
 //1. Membuat Array 
     //a. Menggunakan object constructor => deklarasiVariable namaArray = new Array()
         const example = new Array(5);
-        console.log(example);
+        console.log('Hasil array dari example adalah:', example);
         const example1 = new Array(10);
-        console.log(example1);
+        console.log('Hasil array dari example adalah:', example1);
+        const example2 = new Array(10);
+        console.log('Hasil array example2 adalah, ', example2);
         
     //b. Menggunakan sintaks Array.from => deklarasiVariable namaArray = Array.from()
         const coding = Array.from('coding');
@@ -50,10 +52,11 @@
         console.log(justiceLeague);
 
     //c. Menggunakan Array Literal => deklarasiVariable namaArray = []
-        const CaptainAvangers = ['Stave Rogers', 'Captain Amarica', 1, , true];
-        console.log(CaptainAvangers);
+        const captainAvangers = ['Stave Rogers', 'Captain Amarica', 1, , true];
+        console.log(captainAvangers);
         const spiderMan = ['Peter Parker', 18, true];
         console.log('Siapa itu spiderman', spiderMan);
+        const dcComic = ['Clark Kent', 'Superman', 1000, true]
 
 //2. Mengakses Element Array => namaArray[indeks]
         const anggotaAvenbers = ['Iron Man', 'Captain America', 'Thor', 'Hulk', 'Black Widow', 'Hawkeye'];
@@ -80,17 +83,15 @@
             angka.splice(1, 2); //Menghapus 2 Element
             console.log(angka);
         //c. Menghapus dengan Method Shift (Element Pertama) and Pop (Element Terakhir) 
-            //shift (Menghapus Element Pertama)
-            huruf.shift();
+            huruf.shift(); //shift (Menghapus Element Pertama)
             console.log(huruf);
-            //pop (Menghapus Element Terakhir)
-            huruf.pop();
+            huruf.pop();  //pop (Menghapus Element Terakhir)
             console.log(huruf);
 
 //5. Array Destructuring (melihat isi dari Array) 
-        const introduction = ['Hello', 'Arsy'];
-        const [greeting, nama] = introduction;
-        console.log(greeting, nama);
+        const introduction = ['Hello', 'Arsy', 24];
+        const [greeting, nama, age] = introduction;
+        console.log(greeting, nama, age);
 
 //6. Array Method
     //a.Reverse (membalik nilai array) => namaArray.reverse()

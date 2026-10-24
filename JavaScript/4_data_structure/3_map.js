@@ -24,10 +24,12 @@
     //a. String sebagai Key
         const namaHero = new Map();
         namaHero.set('Iron Man', 3000);
+        namaHero.set('Spider Man', 1000);
         console.log(namaHero);
     //b. Number sebagai Key
         const namaVilain = new Map();
         namaVilain.set(10000, 'Dr. Doom');
+        namaVilain.set(5000, 'Thanos');
         console.log(namaVilain);
 
 //3. Mengakses Nilai di Map (get) => namaMap.get(namaKey)

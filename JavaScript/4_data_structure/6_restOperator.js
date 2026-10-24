@@ -4,9 +4,9 @@
  */
 
     function namaFunction(...parameter){
-        console.log('nama: ', parameter)
+        console.log('nama: ', parameter);
     }
-    namaFunction('Tony Stark', 'Stave Rogers', 'Thor')
+    namaFunction('Tony Stark', 'Stave Rogers', 'Thor');
 
     //Bagaimana dengan dua atau lebih dari satu parameter?
     function avengers(vilain, ...hero){

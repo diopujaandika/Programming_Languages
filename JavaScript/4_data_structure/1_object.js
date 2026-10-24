@@ -20,123 +20,41 @@
         email: 'diopujaandika@dicoding.com', 
         password: 12345,
         status: true,
-        'larning path': 'JavaScript',   //Membuat properti yang memiliki nama key lebih dari satu kata menggunakan single quote
+        'larning path': 'JavaScript',   //Membuat properti yang memiliki nama key lebih dari satu kata menggunakan single quote ['nama key']
         'type player': 'Assassins'
     };
     console.log(user);
-
-    //Contoh 2
-    const product = {
-        id: 1,
-        name: 'Sepatu',
-        price: 23000,
-        stock: 6
-    };
-    console.log(product);
-
-    //Contoh 3
-    const cat = {
-        id: 1,
-        name: 'Garfiel',
-        type: 'Percia'
-    }
-    console.log(cat);
-
 
 //2. Mengakses Properti di Object
     //a. Dot => (namaObject.namaKey)
         //Contoh 1
         console.log(user.username);
-        //Contoh 2
-        console.log(product.name);
-        //Contoh 3
-        console.log(cat.name);
 
-    //b. Square Bracket => (namaObject['nama key'])
-        console.log(user['larning path']); //digunakan untuk mengakses properti yang memiliki nama key yang terdiri dari 2 kata.
-        console.log(user['type player']);
+    //b. Square Bracket => (namaObject['nama key']) Khusus digunakan untuk mengakses properti yang memiliki nama key yang terdiri dari 2 kata atau lebih.
+        console.log(user['larning path']); 
 
-    //c. Object Destructuring => deklarasiVariable {namaKey/namaKey=value} = namaObject
+    //c. Object Destructuring => deklarasiVariable {namaKey/namaKey=value} = namaObject. Memecah properti object ke dalam satuan yang lebih kecil (variable) sehingga kita bisa mendapatkan properti yang kita inginkan lebih fleksibel dan lebih ringkas.
         //Contoh 1
-        const {name: nameContoh1, username, email, password, status, 'type player': typePlayer} = user;  //Memecah properti object ke dalam satuan yang lebih kecil (variable) sehingga kita bisa mendapatkan properti yang kita inginkan lebih fleksibel dan lebih ringkas.
-        console.log(nameContoh1, username, email, password, status, typePlayer);
-        //Contoh 2
-        const {id: idContoh2, name: nameContoh2, price, stock} = product;
-        console.log(idContoh2, nameContoh2, price, stock);
-        //Contoh 3
-        const {id: idContoh3, name: nameContoh3, type} = cat;
-        console.log(idContoh3, nameContoh3, type);
+        const {name, username, email, password, status, 'type player': typePlayer} = user;  //Perhatikan key type player, kita juga bisa menggani nama key dengan nama key lainnya.
+        console.log( username, email, password, status, typePlayer); //Jadi kita tidak perlu menuliskan nama dari object seperti user.username, user.email, dll
 
 //3. Menambahkan Properti di Object
         //Contoh 1
-        const {isMale = true} = user; //karena properti isMale tidak ada, ketika properti diakses tanpa ada value akan mengembalikan nilai undifene untuk itu kita harus memasukan juga valuenya (isMale = true)
-        console.log(isMale);
+        const {isMale = true} = user; //karena properti isMale tidak ada, ketika properti diakses tanpa ada value akan mengembalikan nilai undifined untuk itu kita harus memasukan juga valuenya (isMale = true)
+        console.log(`Jenis kelamin dari ${user.name} adalah ${isMale}`);
         const {hiddenName = 'Decaelo'} = user;
         console.log(hiddenName);
-        //Contoh 2
-        const {discon = true} = product;
-        console.log(discon);
-        //Contoh 3
-        const {color = 'Orange'} = cat;
-        console.log(color)
+        console.log('Daftar Object Baru', user);
 
 //4. Mengubah Nilai di Properti Object => namaObject.namaKey = valueBaru
         //Contoh 1
         user.username = 'andikadiopuja';
         user['type player'] = 'Warrior';
+        user.email = 'andikadiopuja@dicoding.com';
         console.log(user.username);
         console.log(user["type player"]);
-        //Contoh 2
-        product.discon = false;
-        console.log(`Apakah produk ${product.name} memiliki diskon: ${product.discon}.`);
-        //Contoh 3
-        cat.color = 'putih';
-        console.log(`I have a cat names ${cat.name}, the cat is ${cat.color}`);
 
 //5. Menghapus Properti di Object => delete namaObject.namaKey
-        delete user.status          //Menggunakan Dot.
-        delete user["larning path"] //Menggunakan Square 
-        console.log(user)
-
-//CONTOH
-    //Cara membuat Object
-    const newObject = {
-        nama : 'Diva Puja Kiranzi',
-        kelas: 'VI-E',
-        usia: 12,
-        'jenis kelamin': 'Perempuan',
-        alamat: 'Kel. Air Duku',
-    }
-
-    //Mengakses 
-    console.log('Nama :', newObject.nama)       //Menggunakan Dot
-    console.log('Kelas :', newObject['kelas'])  //Menggunakan Square Bracket
-    const {nama, kelas, usia, alamat} = newObject
-    console.log(`Hai nama saya adalah ${nama}. Saya tinggal di ${alamat}.`)
-
-    //Menambah tanpa masuk Object
-    const {hobi = 'Bernyanyi'} = newObject
-    console.log(newObject)
-
-    //Mengubah dan Menambahkan dengan masuk Object
-    newObject.hobi = 'Menggambar'
-    console.log(newObject)
-
-    //Delete
-    delete newObject["jenis kelamin"]
-    delete newObject.hobi
-    console.log(newObject)
-
-    //Latihan 1 - Function sebagai property Object
-    const penggunaLatihan1 = {
-        nama: 'Dio Puja Andika',
-        usia: 24,
-        tinggi: 170.0,
-        'status menikah': false,
-
-        sayHello: function(){
-            return console.log(`Halo, nama saya adalah ${this.nama}`);
-        }
-    };
-    penggunaLatihan1.sayHello();
-    
+        delete user.status;         //Menggunakan Dot.
+        delete user["larning path"]; //Menggunakan Square 
+        console.log('Object setelah dihapus: ', user);

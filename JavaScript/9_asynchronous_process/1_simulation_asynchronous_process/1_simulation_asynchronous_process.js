@@ -13,7 +13,16 @@
 
 // Simple Example
 const estimationTime = 5_000;
+console.log('Tunggu hingga 5 detik... ')
 
 setTimeout(() => {
-    console.log('Hello World!');
+    console.log('Hello, world!')
 }, estimationTime);
+
+//Contoh 1
+const jalankanNanti = (pesan, waktu) => {
+    setTimeout(() => {
+        console.log(pesan);
+    }, waktu);
+}
+jalankanNanti('Hallo Dio!', 10000);
