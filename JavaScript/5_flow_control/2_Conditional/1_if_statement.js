@@ -3,51 +3,47 @@
  * If Statement adalah fundamental statement yang memungkinkan JavaScript untuk membuat keputusan apakah mengeksekusi program atau tidak jika suatu kondisi terpenuhi.
  * if (expression){
  *      statement
- * }   
- * If Statement akan mengeksekusi block jika kondisi terpenuhi (true) 
+ * } else if (expression){
+ *      statement
+ * } else {
+ *      statement
+ * }
+ * If Statement akan mengeksekusi block jika kondisi terpenuhi (true), jika belum terpenuhi (false) maka kode tidak akan dieksekusi.
  */
-
-holiday(false)
-function holiday (gajian){
-    console.log("Berjalan-jalan di Mall");
-    if(gajian){
-        console.log("Makan di restoran mall");
+    //Example
+    const gajian = true;
+    console.log('Berjalan-jalan di mal');
+    if (gajian) {
+        console.log('Makan di restoran mal');
     }
-    console.log('Pulang ke rumah!');
-}
-//1. If Statement 1 Cabang
-    const uang = true
-    console.log('Pulang dari Kampus')
-    if(uang){
-        console.log('Langsung makan di Mi Gacoan!')
-    }
-    console.log('Pulang ke rumah!')
+    console.log('Pulang ke rumah');
 
-//2. If Statement 2 Cabang
-    const usia = 17
-    if (usia>= 17){
-        console.log('Usia Anda sudah boleh nonton film ini!')
-    } else{
-        console.log('Maaf, Anda belum cukup umur untuk nonton ini!')
+    //Apakah if hanya bisa menangani satu cabang kondisi saja? Tidak. Kita bisa manfaatkan keyword else.
+    const hasil = 88;
+    if (hasil>80) {
+        console.log('Selamat, Anda lulus ujian! Nilai Anda:', hasil);
+    } else {
+        console.log('Anda belum lulus ujian! Nilai Anda:', hasil);
     }
 
-//3. If Statement 3 Cabang atau lebih...
-    const nilai = 68
-    if (nilai > 90){
-        console.log('Selamat! Ketampanan Anda diatas rata-rata!')
-    }else if (nilai>70){
-        console.log('Wah... Wajah Anda standart. Tidak jelek-Tidak Tampan')
-    }else{
-        console.log('Maaf, Anda Jelel T_T...')
+    //Lantas bagaimana jika kita memiliki cabang kondisi lebih dari dua? Kita dapat menggabungkan else dan if.
+    const nilai = 80;
+    if (nilai > 90) {
+        console.log('Selamat, Anda mendapatkan nilai A!');
+    } else if (nilai > 80) {
+        console.log('Selamat, Anda Lulus ujian!');
+    } else {
+        console.log('Maaf, Anda belum lulus ujian.');
     }
 
-//4. If Statement Ternary Operator membutuhkan 3 operan dengan urutan:
-    //a. Kondisi yang ingin diperiksa ditulis sebelum tanda tanya (?)
-    //b. Ekspresi yang dieksekusi jika kondisinya benar.
-    //c. Ekspresi yang dieksekusi jika kondisi salah.
-
-    const price = 100000
-    const isMember = true
-    const discount = isMember ? 0.1 : 0
-
-    console.log(`Anda mendapatkan discount sebesar ${discount*price}`)
+    //JS menyediakan sintaksis yang lebih ringkas yaitu menggunakan ternary oerator yang direpresentasikan menggunakan tanda tanya (?)
+    //Ternary operator membutuhkan 3 operan dengan urutan sebagai berikut:
+    /**
+     * 1. Kondisi yang ingin diperiksa ditulis sebelum tanda (?)
+     * 2. Ekspresi yang dieksekusi jika kondisinya benar.
+     * 3. Ekspresi yang dieksekusi jika kondisi salah.
+     */
+    const price = 100000;
+    const isMember = true;
+    const discount = isMember ? 0.1 : 0;
+    console.log(`Anda mendapatkan discount sebesar ${discount * price}`);

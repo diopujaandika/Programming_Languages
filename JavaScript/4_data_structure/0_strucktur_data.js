@@ -4,7 +4,7 @@
  * Pada JavaSciprt terdapat beberapa jenis struktur data yang sering digunakan ketika membuat program:
  * 1. Object {key: value, key value, dst...};
  * 2. Array [index1, index2, dst...];
- * 3. Map 
- * 4. Set
+ * 3. Map : new Map 
+ * 4. Set : new Set
  * 5. Spread Operator (...object/...array)
  */

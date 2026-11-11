@@ -1,8 +1,9 @@
 //FLOW CONTROLS
 /**
+ * Ketika kita membuat program yang kadang memiliki lebih dari satu expression dan statement, tentunya program itu akan dijalan dari atas kebawah (secara sekuensial). kita ingin membuat program yang dinamanis ketika program dijalankan. Untuk itu flow control hadir.
  * Flow Controls adalah urutan expression dan statement dijalankan oleh komputer berdasarkan kondisi dan logika tertentu sehingga program menjadi lebih dinamis.
  * 
- * Jenis-jenis Flow Controls
+ * Jenis-jenis Flow Controls di JS secara umum: conditional, looping, dan error handling.
  * 1. Conditional flow adalah cara untuk menentukan apakah code dieksekusi atau dilewatkan.
  *      a. If Statement
  *      b. Switch Case

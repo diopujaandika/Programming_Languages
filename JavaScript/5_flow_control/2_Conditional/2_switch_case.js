@@ -2,24 +2,25 @@
 /**
  * Switch Case Statement adalah control flow statement yang mengevaluasi expression terhadap beberapa kasus dengan kode yang lebih readable dan ringkas.
  * switch (expression){
- *      statement
+ *      statement;
+ *      break
  * }
  */
 
 //Contoh Penerapan 1
-    const fruit = 'bluebarry'
+    const fruit = 'bluebarry';
     switch(fruit){
         case 'banana':
-            console.log('I am a Banana')
+            console.log('I am a Banana');
             break
         case 'apple':
-            console.log('I am a Apple')
+            console.log('I am a Apple');
             break
         case 'orange':
-            console.log('I am a Orange')
+            console.log('I am a Orange');
             break
         default:
-            console.log('I am not a frui. I am a Programmer!')
+            console.log('I am not a frui. I am a Programmer!');
     }
 
 //Contoh Penerapan 2

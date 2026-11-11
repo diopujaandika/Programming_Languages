@@ -1,6 +1,6 @@
 //MAP
 /**
- * Map adalah salah satu struktur data yang menyimpan KEY-VALUE dengan fungi untuk menutupi kekurangan dari object yaitu key dapat digunakan untuk tipe data apa pun.
+ * Map adalah salah satu struktur data yang menyimpan KEY-VALUE dengan fungsi untuk menutupi kekurangan dari object yaitu key dapat digunakan untuk tipe data apa pun.
  * 
  * SINTAKSIS MAP
  * 1. Membuat Map => deklarasiVariable namaMap = new Map([])
