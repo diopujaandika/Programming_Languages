@@ -5,6 +5,5 @@ TODO:
 """
 
 # TODO: Silakan buat kode Anda di bawah ini.
-
-greeting = "Saya mulai belajar Python!"
+greeting = ("Saya mulai belajar Python!")
 print(greeting)
