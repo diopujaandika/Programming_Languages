@@ -2,6 +2,7 @@
 """
     Tipe data collection adalah tipe data yang menyimpan satu atau lebih data primitif sebagai satu kelompok.
     1. List
+    2. Tuple
 """
 
 #LIST => Jenis kumpulan data terurut (ordered sequence) dan salah satu tipe data yang sering digunakan pada Python dengan tidak mengharuskan memiliki tipe data yang sama di dalamnya.

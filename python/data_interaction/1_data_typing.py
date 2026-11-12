@@ -13,8 +13,9 @@
 
 age = 17            #tipe data integer
 salary = 500000.0   #tipe data float
-
+print(age)
 print(type(age))    #output tipe data dari variable age
+print(salary)
 print(type(salary)) #output tipe data dari variable salary
 
 #Python adalah bahasa pemrograman dynamic typing yang berarti python bahasa pemrograman yang mengetahui tipe variable saat program berjalan dan melakukan proses assignment sehingga memungkinkan untuk mengubah tipe data dari waktu ke waktu. contohnya:

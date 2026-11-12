@@ -7,25 +7,18 @@
 
 #Tipe Data Primitif => jenis paling tipe data dasar yang menyimpan single value. Terdiri dari:
 #1. NUMBER => Tipe data jenis angka (integer, float, complex)
-
-x = 6           #integer
+x = 6           #integer: bilangan bulat positif atau negatif
 print(type(x))
-
-x = 6.6         #float
+x = 6.6         #float: bilangan bulat atau desimal
 print(type(x))
-
-x = 1+2j        #complex
+x = 1+2j        #complex: bilangan kompleks
 print(type(x))
-
 
 #Python bersiftat immutable (value di dalam variable tidak bisa berubah)
 #Walaupun nama variable sama akan tetapi value di dalamnya akan menempati memory yang berbeda
 var = 10
 print(var)
 print(id(var))  #id digunakan untuk melihat memory address
-
 var = 11
 print(var)
 print(id(var))  #id digunakan untuk melihat memory address
-
-

@@ -13,5 +13,3 @@ print(type(x))
 
 x = False       #False
 print(type(x))
-
-
