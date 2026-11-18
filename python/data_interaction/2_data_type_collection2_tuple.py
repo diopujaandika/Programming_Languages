@@ -1,8 +1,10 @@
 #TIPE DATA COLLECTION 
 """
     Tipe data collection adalah tipe data yang menyimpan satu atau lebih data primitif sebagai satu kelompok.
-    1. List
-    2. Tuple
+    1. List []
+    2. Tuple ()
+    3. Set {}
+    4. Dictionary {'key1': value1, 'key2': value2, ...}
 """
 
 #TUPLE => Jenis dari list yang tidak adapat diubah elemennya. Umumnya, tuple digunakan untuk data yang bersifat sekali deklarasi dan dapat dieksekusi lebih cepat.
@@ -16,5 +18,6 @@ print(x[1])
 print(x[0:3])
 
 #Tuple bersifat immutable (Tidak dapat diubah)!
-x[1] = 'program emas'   #ERROR!
-print(x[1])
+# x[1] = 'program emas'   #ERROR!
+# print(x[1])
+

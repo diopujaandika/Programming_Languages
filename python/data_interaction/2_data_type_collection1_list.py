@@ -1,8 +1,10 @@
 #TIPE DATA COLLECTION 
 """
     Tipe data collection adalah tipe data yang menyimpan satu atau lebih data primitif sebagai satu kelompok.
-    1. List
-    2. Tuple
+    1. List []
+    2. Tuple ()
+    3. Set {}
+    4. Dictionary {'key1': value1, 'key2': value2, ...}
 """
 
 #LIST => Jenis kumpulan data terurut (ordered sequence) dan salah satu tipe data yang sering digunakan pada Python dengan tidak mengharuskan memiliki tipe data yang sama di dalamnya.
