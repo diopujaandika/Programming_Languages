@@ -24,3 +24,44 @@ print(kata3.strip("Code"))
 print('Dicoding Indonesia'.startswith('Dicoding'))
 #endswith() => Menembukan suatu kata pada akhir string, metode ini mengembalikan nilai True
 print('Dicoding Indonesia'.endswith('Dicoding'))
+
+#Memisah dan Menggabung String
+#1. join() => Menggabungkan suatu value
+print(' '.join(['Dicoding', 'Indonesia', '!']))
+print('123'.join(['Dicoding', 'Indonesia', '!']))
+#2. split() => Memisahkan suatu value
+print('Dicoding Indonesia !'.split())
+print('''Halo,
+    aku ikan,
+    aku suka sekali menyelam
+    aku tinggal di perairan.
+    Badanku licin dan renangku cepat.
+    Senang berkenalan dengamu.'''.split('\n'))  #newline (\n) untuk memisahkan setiap baris pada string multiline
+
+#Mengganti Elemen String
+#1. replace()
+string = 'Ayo belajar coding di Dicoding'
+print(string.replace('coding', 'permrograman'))
+
+#Pencetakan String
+#1. isupper() => Mengembalikan nilai True jika semua huruf dalam string adalah huruf kapital (uppercase).
+kata4 = 'DICODING'
+print(kata4.isupper())
+#2. islower() => Mengembalikan nilai True jika semua huruf dalam string adalah huruf kecil (lowercase).
+kata5 = 'dicoding'
+print(kata5.islower())
+#3. isalpha() => Mengembalikan nilai True jika semua huruf dalam string adalah huruf alfabet.
+kata6 = 'Dicoding'
+print(kata6.isalpha())
+#4. isalnum() => Mengembalikan nilai True jika dalam string adalah alfanumerik, yaitu huruf dan angka atau berisi keduanya.
+kata7 = 'Dicoding123'
+print(kata7.isalnum())
+#5. isdecimal() => Mengembalikan nilai True jika dalam string berisi angka/numerik, jika tidak bernilai False.
+kata8 = '123'
+print(kata8.isdecimal())
+#6. isspace() => Mengembalikan nilai True jika dalam string hanya berisi whitespace, seperti spasi, tab, newline, dll.
+kata9 = '               '
+print(kata9.isspace())
+#7. istitle() => Mengembalikan nilai True jika string berisi huruf kapital pada setiap kata pertamanya.
+kata10 = 'Dicoding Indonesia'
+print(kata10.istitle())

@@ -1,16 +1,19 @@
-#LIST 
-contoh_list = [1, 3, 3, 5, 5, 5, 7, 7, 9]
-print(contoh_list)
-print('panjang list adalah', len(contoh_list))
+"""
+TODO:
+Buatlah variabel firstName, lastName, age, isMarried dengan ketentuan:
+- firstName: isi dengan nama depan Anda bertipe data string.
+- lastName: isi dengan nama belakang Anda bertipe data string.
+- age: isi dengan umur Anda bertipe data integer.
+- isMarried: isi dengan status pernikahan Anda bertipe data boolean.
 
-#SET
-contoh_list = set([1, 3, 3, 5, 5, 5, 7, 7, 9])
-print(contoh_list)
-print('panjang list adalah', len(contoh_list))
+Catatan:
+- Value variabel harus berupa nilai sesungguhnya (literal) seperti string, 
+  bilangan bulat (integer), dan boolean (benar atau salah).
+"""
 
-#STRING
-contoh_list = "Belajar Python"
-print(contoh_list)
-print('panjang list adalah', len(contoh_list))
+# TODO: Silakan buat kode Anda di bawah ini.
 
-#min() dan max()
+firstName = "Dio"
+lastName = "Puja Andika"
+age = 24
+isMarried = False

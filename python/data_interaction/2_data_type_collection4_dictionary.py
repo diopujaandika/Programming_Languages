@@ -1,8 +1,8 @@
 #TIPE DATA COLLECTION 
 """
     Tipe data collection adalah tipe data yang menyimpan satu atau lebih data primitif sebagai satu kelompok.
-    1. List ()
-    2. Tuple []
+    1. List []
+    2. Tuple ()
     3. Set {}
     4. Dictionary  {'namaKey1': value1, 'nameKey2': value2, ...}
 """
