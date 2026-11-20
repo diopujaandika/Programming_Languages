@@ -65,3 +65,28 @@ print(kata9.isspace())
 #7. istitle() => Mengembalikan nilai True jika string berisi huruf kapital pada setiap kata pertamanya.
 kata10 = 'Dicoding Indonesia'
 print(kata10.istitle())
+
+#FORMATTING PADA STRING
+#1. zfill() => Menambahkan nilai nol (0) di depan sebuah string dengan panjang tertentu dengan tujuan untuk memastikan bahwa sebbuah value memiliki panjang tetap (konsisten).
+teks = 'Code'
+tambah_number = teks.zfill(10)
+print(tambah_number)
+#2. rjust() => Merapikan pencetakan teks rata kanan
+print('Dicoding'.rjust(20))     #angka 20 memastikan value berisi 20 karakter
+print('Dicoding'.rjust(20, '!'))#karater yang tidak ditempati akan disi dengan "!"
+#3. ljust() => Merapikan pencetakan teks rata kiri
+print('Dicoding'.ljust(20))
+print('Dicoding'.ljust(20,'!'))
+#4. center() => Menjadikan teks rata tengah
+print('Dicoding'.center(20, '-'))
+
+#STRING LITERALS
+print("Jum'at")
+print('Jum\'at')    #Single quote
+print("Jum\"at")    #Double quote
+print('Jum\tat')    #Tab
+print('Jum\nat')    #Newline
+print('Jum\\at')    #Backslash
+
+#RAW STRING => Menampilkan string sesuai dengan apapun input atau teks yang diberikan
+print(r'Dicoding\tIndonesia')
